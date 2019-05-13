@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-14755.537 -8397.5 79.074 79.074">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #0cb4b4;
+        stroke-width: 5px;
+        opacity: 0.903;
+      }
+
+      .cls-2 {
+        fill: #153c2b;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Symbol_70_5" data-name="Symbol 70 – 5" transform="translate(-15176 -8766)">
+    <path id="Path_2093" data-name="Path 2093" class="cls-1" d="M37.037,74.074A37.037,37.037,0,1,0,0,37.037,37.037,37.037,0,0,0,37.037,74.074Z" transform="translate(422.963 371)"/>
+    <path id="Path_6589" data-name="Path 6589" class="cls-2" d="M1258.824-1450.9v6.426H1233.7v-6.426Z" transform="translate(-786.528 1856.509)"/>
+  </g>
+</svg>

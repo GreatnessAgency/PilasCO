@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-3257 -6155 177 286">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00b3e3;
+      }
+
+      .cls-2 {
+        opacity: 0.1;
+      }
+
+      .cls-3 {
+        fill: #d1d3d3;
+      }
+
+      .cls-4 {
+        fill: #a4a9ad;
+      }
+
+      .cls-5 {
+        fill: #333e48;
+      }
+
+      .cls-14, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        opacity: 0.2;
+      }
+
+      .cls-8 {
+        fill: #ffb819;
+      }
+
+      .cls-9 {
+        fill: #0071ce;
+      }
+
+      .cls-10 {
+        fill: #00ad68;
+      }
+
+      .cls-11 {
+        fill: #218649;
+      }
+
+      .cls-12 {
+        fill: #1e252b;
+      }
+
+      .cls-13 {
+        fill: #f14742;
+      }
+
+      .cls-14 {
+        font-size: 20px;
+        font-family: SegoeUI-Bold, Segoe UI;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="Group_5391" data-name="Group 5391" transform="translate(-3814 -6832)">
+    <g id="school_2_" data-name="school (2)" transform="translate(565 640.324)">
+      <path id="Path_7477" data-name="Path 7477" class="cls-1" d="M157.257,170.709a6.385,6.385,0,0,0-4.934-2.8H31.94a6.385,6.385,0,0,0-4.935,2.8l-9.411,15.8c-.919,1.543-.2,2.8,1.594,2.8H165.074c1.8,0,2.513-1.262,1.594-2.8Z" transform="translate(-11.798 -90.049)"/>
+      <path id="Path_7478" data-name="Path 7478" class="cls-2" d="M31.141,195.027H90.057v-4.982H34.108ZM169.3,190.045H112.676v4.982h59.586Z" transform="translate(-21.369 -105.242)"/>
+      <path id="Path_7479" data-name="Path 7479" class="cls-3" d="M110.289,174.065,93.326,146.839,76.363,174.065H19.425v65.876h147.8V174.065Z" transform="translate(-13.329 -75.594)"/>
+      <path id="Path_7480" data-name="Path 7480" class="cls-2" d="M115.594,181.1a4.515,4.515,0,0,1-3.43-1.9l-1.028-1.641h-.847L94.481,152.192a2.742,2.742,0,0,0-2.311,0L76.363,177.564h-.845L74.489,179.2a4.516,4.516,0,0,1-3.43,1.9H19.425v8.754H73.84a4.321,4.321,0,0,0,3.366-1.937l13.288-20.346c1.557-2.657,4.107-2.657,5.664,0l13.288,20.346a4.321,4.321,0,0,0,3.366,1.937h54.413V181.1Z" transform="translate(-13.329 -79.092)"/>
+      <g id="Group_5386" data-name="Group 5386" transform="translate(6.096 104.667)">
+        <rect id="Rectangle_1212" data-name="Rectangle 1212" class="cls-4" width="14.355" height="6.908" transform="translate(133.446 7.666)"/>
+        <rect id="Rectangle_1213" data-name="Rectangle 1213" class="cls-4" width="14.355" height="6.908" transform="translate(90.387 21.968)"/>
+        <rect id="Rectangle_1214" data-name="Rectangle 1214" class="cls-4" width="14.355" height="6.908" transform="translate(116.384 46.491)"/>
+        <rect id="Rectangle_1215" data-name="Rectangle 1215" class="cls-4" width="14.355" height="6.908" transform="translate(41.873 48.324)"/>
+        <rect id="Rectangle_1216" data-name="Rectangle 1216" class="cls-4" width="14.355" height="6.908" transform="translate(0 14.299)"/>
+        <rect id="Rectangle_1217" data-name="Rectangle 1217" class="cls-4" width="14.355" height="6.908" transform="translate(34.696)"/>
+      </g>
+      <rect id="Rectangle_1218" data-name="Rectangle 1218" class="cls-5" width="24.659" height="33.919" transform="translate(67.669 130.428)"/>
+      <rect id="Rectangle_1219" data-name="Rectangle 1219" class="cls-2" width="24.659" height="4.287" transform="translate(67.669 130.428)"/>
+      <g id="Group_5387" data-name="Group 5387" transform="translate(41.887 124.709)">
+        <rect id="Rectangle_1220" data-name="Rectangle 1220" class="cls-6" width="4.982" height="9.386" transform="translate(30.485 13.568)"/>
+        <rect id="Rectangle_1221" data-name="Rectangle 1221" class="cls-6" width="4.982" height="9.386" transform="translate(40.751 13.568)"/>
+        <rect id="Rectangle_1222" data-name="Rectangle 1222" class="cls-6" width="14.493" height="19.939"/>
+      </g>
+      <rect id="Rectangle_1223" data-name="Rectangle 1223" class="cls-7" width="14.493" height="4.397" transform="translate(41.887 124.709)"/>
+      <rect id="Rectangle_1224" data-name="Rectangle 1224" class="cls-6" width="14.493" height="19.939" transform="translate(13.764 124.709)"/>
+      <rect id="Rectangle_1225" data-name="Rectangle 1225" class="cls-7" width="14.493" height="4.397" transform="translate(13.764 124.709)"/>
+      <rect id="Rectangle_1226" data-name="Rectangle 1226" class="cls-6" width="14.493" height="19.939" transform="translate(103.613 124.709)"/>
+      <rect id="Rectangle_1227" data-name="Rectangle 1227" class="cls-7" width="14.493" height="4.397" transform="translate(103.613 124.709)"/>
+      <rect id="Rectangle_1228" data-name="Rectangle 1228" class="cls-6" width="14.493" height="19.939" transform="translate(131.736 124.709)"/>
+      <rect id="Rectangle_1229" data-name="Rectangle 1229" class="cls-7" width="14.493" height="4.397" transform="translate(131.736 124.709)"/>
+      <rect id="Rectangle_1230" data-name="Rectangle 1230" class="cls-8" width="28.774" height="16.491" transform="translate(79.998 41.456)"/>
+      <rect id="Rectangle_1231" data-name="Rectangle 1231" class="cls-2" width="7.533" height="16.491" transform="translate(79.998 41.456)"/>
+      <path id="Path_7481" data-name="Path 7481" class="cls-9" d="M88.42,134.464c-1.636-2.61-4.313-2.61-5.949,0L66.608,159.776a4.517,4.517,0,0,1-3.43,1.9h-53a2.247,2.247,0,0,0-2.24,2.24v4.273a2.247,2.247,0,0,0,2.24,2.24h55.78a4.321,4.321,0,0,0,3.366-1.937l13.288-20.346c1.557-2.658,4.107-2.658,5.664,0l13.288,20.346a4.321,4.321,0,0,0,3.366,1.937H160.71a2.247,2.247,0,0,0,2.241-2.24v-4.273a2.247,2.247,0,0,0-2.241-2.24h-53a4.514,4.514,0,0,1-3.43-1.9Z" transform="translate(-5.448 -65.759)"/>
+      <circle id="Ellipse_165" data-name="Ellipse 165" class="cls-6" cx="11.31" cy="11.31" r="11.31" transform="translate(68.688 101.023)"/>
+      <path id="Path_7482" data-name="Path 7482" class="cls-10" d="M163.622,449.675a1.345,1.345,0,0,1-1.341,1.342h-153a1.346,1.346,0,0,1-1.342-1.342v-4.8a1.346,1.346,0,0,1,1.342-1.342h153a1.345,1.345,0,0,1,1.341,1.342Z" transform="translate(-5.448 -279.184)"/>
+      <rect id="Rectangle_1232" data-name="Rectangle 1232" class="cls-4" width="40.187" height="7.486" transform="translate(60.239 164.347)"/>
+      <g id="Group_5388" data-name="Group 5388" transform="translate(16.902 152.992)">
+        <path id="Path_7483" data-name="Path 7483" class="cls-11" d="M429.434,418.7a11.355,11.355,0,0,0-22.709,0Z" transform="translate(-295.997 -407.346)"/>
+        <path id="Path_7484" data-name="Path 7484" class="cls-11" d="M76.572,418.7a11.355,11.355,0,0,0-22.709,0Z" transform="translate(-53.863 -407.346)"/>
+      </g>
+      <path id="Path_7485" data-name="Path 7485" class="cls-12" d="M118.107,122.219H103.614a2.491,2.491,0,0,0-2.491,2.491v19.94a2.491,2.491,0,0,0,2.491,2.491h14.493a2.491,2.491,0,0,0,2.491-2.491v-19.94A2.491,2.491,0,0,0,118.107,122.219Zm-2.491,19.94h-9.51v-4.988h9.51Zm0-9.97h-9.51V127.2h9.51Zm33.107-7.479a2.491,2.491,0,0,0-2.491-2.491H131.738a2.491,2.491,0,0,0-2.491,2.491v19.94a2.491,2.491,0,0,0,2.491,2.491h14.493a2.491,2.491,0,0,0,2.491-2.491Zm-4.982,17.449h-9.51v-4.988h9.51Zm0-9.97h-9.51V127.2h9.51Zm-115.483-9.97H13.764a2.491,2.491,0,0,0-2.491,2.491v19.94a2.491,2.491,0,0,0,2.491,2.491H28.256a2.491,2.491,0,0,0,2.491-2.491v-19.94A2.491,2.491,0,0,0,28.257,122.219Zm-2.491,19.94H16.255v-4.988h9.51v4.988Zm0-9.97H16.255V127.2h9.51v4.988Zm131.067,29.666h-.442V107.019a4.735,4.735,0,0,0,3.6-4.59V98.156a4.735,4.735,0,0,0-4-4.668l-8.4-14.1a8.867,8.867,0,0,0-7.074-4.021H90.085l-5-7.982a6.935,6.935,0,0,0-2.594-2.5V60.439h26.284a2.491,2.491,0,0,0,2.491-2.491V41.456a2.491,2.491,0,0,0-2.491-2.491H82.478a2.49,2.49,0,0,0-4.972.2V64.886a6.945,6.945,0,0,0-2.594,2.5l-5,7.982H20.141a8.865,8.865,0,0,0-7.075,4.021L4.7,93.426A4.736,4.736,0,0,0,0,98.156v4.273a4.735,4.735,0,0,0,3.6,4.59v54.848A3.835,3.835,0,0,0,0,165.688v4.8a3.838,3.838,0,0,0,3.833,3.833h153a3.837,3.837,0,0,0,3.833-3.833v-4.8A3.837,3.837,0,0,0,156.833,161.856ZM82.488,43.948h23.793V55.457H82.488V43.948Zm58.036,36.4a3.977,3.977,0,0,1,2.794,1.588l6.843,11.49h-47.9a2.176,2.176,0,0,1-1.319-.73L93.207,80.346ZM17.347,81.934a3.976,3.976,0,0,1,2.794-1.588H66.788L59.05,92.695a2.18,2.18,0,0,1-1.319.731H10.5ZM4.982,98.407H57.73a6.963,6.963,0,0,0,5.541-3.067L79.134,70.028c.363-.579.715-.789.864-.789s.5.21.864.789L96.724,95.34a6.962,6.962,0,0,0,5.541,3.067h52.747v3.772H99.484a1.95,1.95,0,0,1-1.213-.7L84.946,81.071a5.448,5.448,0,0,0-9.9,0l-13.258,20.3-.068.11a1.952,1.952,0,0,1-1.213.7H4.982Zm134,52.094a13.865,13.865,0,0,0-13.617,11.355H94.816V127.938H65.177v33.918h-23.3a13.842,13.842,0,0,0-27.233,0H8.587V107.161H60.511a6.776,6.776,0,0,0,5.481-3.11l13.259-20.3.063-.1a1.937,1.937,0,0,1,.667-.763c.075.017.366.194.7.763L94,104.05a6.776,6.776,0,0,0,5.481,3.111h51.925v51.083A13.861,13.861,0,0,0,138.985,150.5Zm8.5,11.355H130.48a8.861,8.861,0,0,1,17.009,0ZM89.834,132.92v28.936H70.159V132.92ZM36.761,161.856H19.752a8.861,8.861,0,0,1,17.009,0Zm20.987,7.485H4.982v-2.5H57.748Zm40.187,0H62.73v-2.5h35.2Zm57.748,0H102.917v-2.5h52.766v2.5ZM80,98.533a13.8,13.8,0,1,0,13.8,13.8A13.815,13.815,0,0,0,80,98.533Zm0,22.618a8.818,8.818,0,1,1,8.817-8.818A8.828,8.828,0,0,1,80,121.151Zm4.332-11.309H82.489V108a2.491,2.491,0,1,0-4.983,0v4.332A2.491,2.491,0,0,0,80,114.824H84.33a2.491,2.491,0,1,0,0-4.983ZM56.381,122.219H41.888a2.491,2.491,0,0,0-2.491,2.491v19.94a2.491,2.491,0,0,0,2.491,2.491H56.381a2.491,2.491,0,0,0,2.491-2.491v-19.94A2.491,2.491,0,0,0,56.381,122.219Zm-2.491,19.94H44.38v-4.988h9.51Zm0-9.97H44.38V127.2h9.51Z"/>
+    </g>
+    <g id="lace" transform="translate(510.079 810)">
+      <path id="Path_7486" data-name="Path 7486" class="cls-13" d="M225.188,8.258H55.179V156.323l85-37.755,85,37.755Z" transform="translate(-4.763 -5.79)"/>
+      <path id="Path_7489" data-name="Path 7489" d="M220.426,0H50.416c-1.931,0-3.5,1.1-3.5,2.468V150.532a2.492,2.492,0,0,0,1.806,2.16,4.78,4.78,0,0,0,3.551-.071l83.143-36.928,83.143,36.928a4.628,4.628,0,0,0,1.862.379,4.677,4.677,0,0,0,1.69-.308,2.492,2.492,0,0,0,1.806-2.16V2.468C223.921,1.1,222.356,0,220.426,0Zm-3.5,146.064-79.648-35.376a4.764,4.764,0,0,0-3.722,0L53.912,146.064V4.935H216.929V146.064Z"/>
+    </g>
+    <text id="PASOS_PARA_UN_COLEGIO_PILOSO" data-name="PASOS PARA UN COLEGIO PILOSO" class="cls-14" transform="translate(573 831)"><tspan x="12.222" y="22">PASOS PARA </tspan><tspan x="12.612" y="44">UN COLEGIO </tspan><tspan x="37.554" y="66">PILOSO</tspan></text>
+  </g>
+</svg>

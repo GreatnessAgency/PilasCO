@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-13781 -7238 35.277 35.277">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #0e76a8;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="35.278" height="35.277"/>
+    </clipPath>
+  </defs>
+  <g id="linkedin" class="cls-2" transform="translate(-13781 -7238)">
+    <g id="linkedin-2" data-name="linkedin">
+      <path id="Path_7430" data-name="Path 7430" class="cls-3" d="M17.639,0A17.639,17.639,0,1,1,0,17.639,17.639,17.639,0,0,1,17.639,0Z"/>
+      <path id="Path_7431" data-name="Path 7431" class="cls-4" d="M81.951,88.246h3.3V77.237h-3.3Zm12.868-11.39a4.958,4.958,0,0,0-4.055,1.877V77.2H87.449V88.246h3.315V82.273a2.622,2.622,0,0,1,2.605-2.494c1.449,0,1.806,1.231,1.806,2.463v6h3.3V82C98.477,77.656,96.422,76.856,94.818,76.856Zm-11.232-.719a1.654,1.654,0,1,0-1.654-1.654A1.654,1.654,0,0,0,83.587,76.137Z" transform="translate(-72.011 -64.011)"/>
+    </g>
+  </g>
+</svg>
