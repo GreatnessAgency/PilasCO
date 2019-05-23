@@ -56,7 +56,7 @@ class Inicio extends CI_Controller
 			<b>Mensaje:</b> {$data['mensaje']}
 		";
 
-        if ($this->sendEmailByMail('info-digital@pilascolombia.com', $mensaje, 'Registro empresa', 'info-digital@pilascolombia.com') !== true) {
+        if ($this->sendSMTPEmailByMail('info-digital@pilascolombia.com', $mensaje, 'Registro empresa') !== true) {
             // Generate error
             echo '{"answer": false}';
         } else {
@@ -74,7 +74,7 @@ class Inicio extends CI_Controller
 			<b>Mensaje:</b> {$data['empresa']}
 		";
 
-        if ($this->sendEmailByMail('info-digital@pilascolombia.com', $mensaje, 'Stickers', 'info-digital@pilascolombia.com') !== true) {
+        if ($this->sendSMTPEmailByMail('info-digital@pilascolombia.com', $mensaje, 'Stickers') !== true) {
             // Generate error
             echo '{"answer": false}';
         } else {
@@ -97,7 +97,7 @@ class Inicio extends CI_Controller
             $mensaje .= "<b>Correo:</b> {$data['correo']}<br>";
         }
         if (array_key_exists("razon_social", $data)) {
-            $mensaje .= "<b>Raz√≥n Social:</b> {$data['razon_social']}<br>";
+            $mensaje .= "<b>Raz®Æn Social:</b> {$data['razon_social']}<br>";
         }
         if (array_key_exists("select-tipo-empresa", $data)) {
             $mensaje .= "<b>Tipo de empresa:</b> {$data['select-tipo-empresa']}<br>";
@@ -108,7 +108,7 @@ class Inicio extends CI_Controller
         if (array_key_exists("mensaje", $data)) {
             $mensaje .= "<b>Mensaje:</b> {$data['mensaje']}";
         }
-        if ($this->sendSMTPEmailByMail('info-digital@pilascolombia.com', $mensaje, 'Contactenos', 'info-digital@pilascolombia.com') !== true) {
+        if ($this->sendSMTPEmailByMail('info-digital@pilascolombia.com', $mensaje, 'Contactenos') !== true) {
             // Generate error
             echo '{"answer": false}';
         } else {
@@ -117,7 +117,7 @@ class Inicio extends CI_Controller
     }
 
 
-    private function sendEmailByMail($to, $msg, $subject, $cc)
+    private function sendEmailByMail($to, $msg, $subject, $cc = '')
     {
         $headers = "MIME-Version: 1.0" . PHP_EOL;
         $headers .= "Content-Type: text/html; charset=ISO-8859-1" . PHP_EOL;
@@ -135,16 +135,16 @@ class Inicio extends CI_Controller
         }
     }
 
-    private function sendSMTPEmailByMail($to, $msg, $subject, $cc)
+    private function sendSMTPEmailByMail($to, $msg, $subject, $cc = '')
     {
         $this->load->library('email');
         $result = $this->email
             ->from('info-digital@pilascolombia.com')
-            ->reply_to('info-digital@pilascolombia.com')    // Optional, an account where a human being reads.
+            ->reply_to($cc)    // Optional, an account where a human being reads.
             ->to($to)
             ->subject($subject)
             ->message($msg)
             ->send();
-        return true;
+        return $result;
     }
 }
