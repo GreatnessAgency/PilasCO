@@ -6,4 +6,4 @@ before_script:
 
 build:
   script:
-    - lftp -e "open $FTP_SERVER; user $FTP_USERNAME $FTP_PASSWORD; mirror -X .* -X .*/ --reverse --verbose --delete local-folder/ destination-folder/; bye"
+    - lftp -e "open $FTP_SERVER; user $FTP_USERNAME $FTP_PASSWORD; mirror -X .* -X .*/ --reverse --verbose --delete . test_ci/; bye"
