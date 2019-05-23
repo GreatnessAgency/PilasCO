@@ -2,6 +2,7 @@ image: mwienk/docker-lftp
 
 build:
   script:
-    - pwd
-    - ls
+    - echo $FTP_USERNAME
+    - echo $FTP_PASSWORD
+    - echo $FTP_SERVER
     - lftp ftp://'$FTP_USERNAME':'$FTP_PASSWORD'@$FTP_SERVER  -e "set ftp:ssl-allow no; mirror -X .* -X .*/ -eRnv --verbose --delete ./ /home/pilascol/test_ci/; bye;"
