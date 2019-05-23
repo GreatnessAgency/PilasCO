@@ -1,14 +1,12 @@
 image: mwienk/docker-git-ftp
+deploy_all:
+  stage: deploy
+  script:
+    - git config git-ftp.url "$FTP_SERVER"
+    - git config git-ftp.password "$FTP_PASSWORD"
+    - git config git-ftp.user "$FTP_USERNAME"
+    - git ftp init
+    - git ftp push  -m "Add new content"
 
-
-    deploy_all:
-      stage: deploy
-      script:
-        - git config git-ftp.url "$FTP_SERVER"
-        - git config git-ftp.password "$FTP_PASSWORD"
-        - git config git-ftp.user "$FTP_USERNAME"
-        - git ftp init
-        - git ftp push  -m "Add new content"
-
-      only:
-        - master
+  only:
+    - master
