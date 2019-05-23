@@ -3,3 +3,6 @@ landing
 logss
 site_2017
 .DS_Store
+
+application/config/config.php
+application/config/database.php
