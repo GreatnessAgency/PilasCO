@@ -4,4 +4,4 @@ build:
   script:
     - pwd
     - ls
-    - lftp ftp://'$FTP_USERNAME':'$FTP_PASSWORD'@$FTP_SERVER  -e "set ftp:ssl-allow no; mirror -X .* -X .*/ --reverse --verbose --delete ./* /home/pilascol/test_ci/; bye;"
+    - lftp ftp://'$FTP_USERNAME':'$FTP_PASSWORD'@$FTP_SERVER  -e "set ftp:ssl-allow no; mirror -X .* -X .*/ -eRnv --verbose --delete ./ /home/pilascol/test_ci/; bye;"
