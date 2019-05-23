@@ -97,7 +97,7 @@ class Inicio extends CI_Controller
             $mensaje .= "<b>Correo:</b> {$data['correo']}<br>";
         }
         if (array_key_exists("razon_social", $data)) {
-            $mensaje .= "<b>Raz®Æn Social:</b> {$data['razon_social']}<br>";
+            $mensaje .= "<b>Raz√≥n Social:</b> {$data['razon_social']}<br>";
         }
         if (array_key_exists("select-tipo-empresa", $data)) {
             $mensaje .= "<b>Tipo de empresa:</b> {$data['select-tipo-empresa']}<br>";
@@ -113,25 +113,6 @@ class Inicio extends CI_Controller
             echo '{"answer": false}';
         } else {
             echo '{"answer": true}';
-        }
-    }
-
-
-    private function sendEmailByMail($to, $msg, $subject, $cc = '')
-    {
-        $headers = "MIME-Version: 1.0" . PHP_EOL;
-        $headers .= "Content-Type: text/html; charset=ISO-8859-1" . PHP_EOL;
-        $headers .= 'Bcc: info-digital@pilascolombia.com' . PHP_EOL;
-        if ($cc) {
-            $headers .= 'Bcc:' . $cc . PHP_EOL;
-        }
-        // More headers
-        $headers .= 'From: ' . utf8_decode("Pilas con el ambiente") . ' <info-digital@pilascolombia.com>' . PHP_EOL;
-
-        if (!mail($to, utf8_decode($subject), utf8_decode($msg), $headers)) {
-            return false;
-        } else {
-            return true;
         }
     }
 
