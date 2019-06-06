@@ -2,18 +2,6 @@
   <div id="galeria-principal" class="carousel slide" data-ride="carousel">
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
-      <div class="item active tema-1">
-         <!-- <img class="fotografia" src="<?php echo $assets; ?>images/banner_1.png" alt=""> -->
-         <div class="container">
-           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
-             <!--<div class="anuncio ">
-                  <p class="parrafo">Somos una comunidad que trabaja por el <strong>CUIDADO Y PROTECCIÓN DEL AMBIENTE</strong>, recolectando pilas usadas para su disposición final.<br><strong> ¡Tu también puedes ser parte!</strong></p>
-             </div>-->
-             <!--a class="principal-btn" href="#">¡ÚNETE!</a-->
-           </div>
-
-         </div>
-      </div>
       <div class="item active tema-1-2">
          <!-- <img class="fotografia" src="<?php echo $assets; ?>images/banner_1.png" alt=""> -->
          <div class="container">
