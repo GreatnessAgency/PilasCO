@@ -121,7 +121,7 @@ class Inicio extends CI_Controller
         $this->load->library('email');
         $result = $this->email
             ->from('info-digital@pilascolombia.com')
-            ->reply_to($cc)    // Optional, an account where a human being reads.
+            ->reply_to($cc)   
             ->to($to)
             ->subject($subject)
             ->message($msg)
