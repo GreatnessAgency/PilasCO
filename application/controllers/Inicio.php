@@ -116,7 +116,7 @@ class Inicio extends CI_Controller
         }
     }
 
-    private function sendSMTPEmailByMail($to, $msg, $subject, $cc = 'daniel.escobar@zavgroup.com')
+    private function sendSMTPEmailByMail($to, $msg, $subject, $cc = '')
     {
         $this->load->library('email');
         $result = $this->email
