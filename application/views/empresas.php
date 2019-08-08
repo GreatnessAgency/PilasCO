@@ -61,8 +61,8 @@
 			    					<div class="form-group">
                         <select id="tipo de documento" name="tipo_documento" class="form-control input-sm" required>
                            <option value="">Tipo de Documento</option>   
-                           <option value="CC">CC</option>
-                           <option value="NIT">NIT</option>
+                           <option value="C.C.">CC</option>
+                           <option value="N.I.T">NIT</option>
                         </select>
 			    					</div>
                   </div>

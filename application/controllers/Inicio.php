@@ -46,13 +46,13 @@ class Inicio extends CI_Controller
         $data = $this->input->post(NULL, TRUE);
         $mensaje = "
 			<b>Nombre:</b> {$data['empresa']}<br>
-			<b>Correo:</b> {$data['nombre']}<br>
-			<b>Mensaje:</b> {$data['tipo_documento']}<br>
-			<b>Nombre:</b> {$data['numero_documento']}<br>
-			<b>Correo:</b> {$data['direccion']}<br>
-			<b>Mensaje:</b> {$data['ciudad']}<br>
-			<b>Nombre:</b> {$data['telefono']}<br>
-			<b>Correo:</b> {$data['email']}<br>
+			<b>Empresa:</b> {$data['nombre']}<br>
+			<b>Tipo de documento:</b> {$data['tipo_documento']}<br>
+			<b>Numero de Documento:</b> {$data['numero_documento']}<br>
+			<b>Direccion:</b> {$data['direccion']}<br>
+			<b>Ciudad:</b> {$data['ciudad']}<br>
+			<b>telefono:</b> {$data['telefono']}<br>
+			<b>Email:</b> {$data['email']}<br>
 			<b>Mensaje:</b> {$data['mensaje']}
 		";
 
