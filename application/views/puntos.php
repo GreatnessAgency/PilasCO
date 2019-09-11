@@ -124,5 +124,5 @@
 </style>
 <script src="<?php echo $assets;?>js/mapa-google.js"></script>
 <script async defer
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLx2cQEJG16Vc14fQp9j8xBuLKn0QPSx0&callback=initMap">
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCseCtezoJWsKootuItKsfCCmoX65dd11g&callback=initMap">
 </script>
