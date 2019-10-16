@@ -1,8 +1,9 @@
-image: mwienk/docker-lftp
+image: mwienk/docker-lftp:latest
 
 build:
   script:
-    - echo $FTP_USERNAME
-    - echo $FTP_PASSWORD
-    - echo $FTP_SERVER
-    - lftp ftp://'$FTP_USERNAME':'$FTP_PASSWORD'@$FTP_SERVER  -e "set ftp:ssl-allow no; mirror -X .* -X .*/ -eRnv --verbose --delete ./ /home/pilascol/test_ci/; bye;"
+    # Sync to FTP
+    - lftp -e "set ssl:verify-certificate no; open $FTP_SERVER; user $FTP_USERNAME $FTP_PASSWORD; mirror -x .git -eRv ./ public_html/test_ci/; bye"
+  only:
+    refs:
+      - master
