@@ -87,7 +87,7 @@ body {
 	-ms-transform: rotate(6deg); /* IE 9 */
     -webkit-transform: rotate(6deg); /* Safari */
     transform: rotate(6deg); /* Standard syntax */
-	
+
 }
 
 .frase1-fp {
@@ -99,7 +99,7 @@ body {
 	text-align: center;
 	margin-bottom:-2px;
 	text-shadow: 0 3px 2px rgba(0,0,0,0.1);
-	
+
 
 }
 
@@ -200,74 +200,74 @@ body {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   }
-  
+
   @-webkit-keyframes bounceInDown {
   0%, 60%, 75%, 90%, 100% {
   -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
-  
+
   0% {
   opacity: 0;
   -webkit-transform: translate3d(0, -1000px, 0);
   transform: translate3d(0, -1000px, 0);
   }
-  
+
   60% {
   opacity: 1;
   -webkit-transform: translate3d(0, 15px, 0);
   transform: translate3d(0, 15px, 0);
   }
-  
+
   75% {
   -webkit-transform: translate3d(0, -5px, 0);
   transform: translate3d(0, -5px, 0);
   }
-  
+
   90% {
   -webkit-transform: translate3d(0, 2px, 0);
   transform: translate3d(0, 2px, 0);
   }
-  
+
   100% {
   -webkit-transform: none;
   transform: none;
   }
   }
-  
+
   @keyframes bounceInDown {
   0%, 60%, 75%, 90%, 100% {
   -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
-  
+
   0% {
   opacity: 0;
   -webkit-transform: translate3d(0, -3000px, 0);
   transform: translate3d(0, -3000px, 0);
   }
-  
+
   60% {
   opacity: 1;
   -webkit-transform: translate3d(0, 25px, 0);
   transform: translate3d(0, 25px, 0);
   }
-  
+
   75% {
   -webkit-transform: translate3d(0, -10px, 0);
   transform: translate3d(0, -10px, 0);
   }
-  
+
   90% {
   -webkit-transform: translate3d(0, 5px, 0);
   transform: translate3d(0, 5px, 0);
   }
-  
+
   100% {
   -webkit-transform: none;
   transform: none;
   }
-  } 
+  }
 
 /* Custom checkbox */
 
@@ -443,7 +443,7 @@ body {
     color: #81D02B;
     -webkit-transition: color 0.5s ease-out;
     transition: color 0.5s ease-out;
-   
+
 }
 .seccion .nombre a{
     color: #81D02B;
@@ -616,6 +616,26 @@ _:-ms-fullscreen,
 
 #galeria-principal .carousel-control img {
     width: 70px;
+}
+
+#galeria-principal .carousel-inner .tema-reto1 {
+    background-image: url('../images/banner-reto/banner-80.jpg');
+    background-position: center;
+}
+
+#galeria-principal .carousel-inner .tema-reto2 {
+    background-image: url('../images/banner-reto/portada_Atom-Alkalina-y-Ecobit-en-la-campana-verde_banner_pilas.png');
+    background-position: center;
+}
+
+#galeria-principal .carousel-inner .tema-reto3 {
+    background-image: url('../images/banner-reto/PORTADA-CUENTO-ELVIAJEDEECOBIT-RETO_PLANETA-banner-pilas.png');
+    background-position: center;
+}
+
+#galeria-principal .carousel-inner .tema-reto4 {
+    background-image: url('../images/banner-reto/Banner_ColegioBethShalom.jpg');
+    background-position: center;
 }
 
 #galeria-principal .carousel-inner .tema-1 {
@@ -804,7 +824,7 @@ _:-ms-fullscreen,
 .botton-modal-home img{
     width: 44px;
     }
-    
+
 
 .botton-modal-home{
     width: 19%;
@@ -1268,8 +1288,8 @@ img.girl :-moz-full-screen {
 }
 
 .puntos .contenido-interna {
-    padding-right: 0px; 
-    padding-left: 0px; 
+    padding-right: 0px;
+    padding-left: 0px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -1928,7 +1948,7 @@ img.girl :-moz-full-screen {
     color: #fff;
     font-weight: bold;
     width: 50px;
-    height: 50px;    
+    height: 50px;
     padding-top: 8px;
     margin-left: -42px;
     margin-right: 16px;
@@ -1940,7 +1960,7 @@ img.girl :-moz-full-screen {
     color: #fff;
     font-weight: bold;
     width: 50px;
-    height: 50px;    
+    height: 50px;
     padding-top: 8px;
 }
 .edu-linea .cuatro-edu2 .numero{
@@ -1950,7 +1970,7 @@ img.girl :-moz-full-screen {
     color: #fff;
     font-weight: bold;
     width: 50px;
-    height: 50px;    
+    height: 50px;
     padding-top: 8px;
     margin-left: -42px;
     margin-right: 16px;
@@ -1962,7 +1982,7 @@ img.girl :-moz-full-screen {
     color: #fff;
     font-weight: bold;
     width: 50px;
-    height: 50px;    
+    height: 50px;
     padding-top: 8px;
     margin-left: -42px;
     margin-right: 16px;
@@ -2014,7 +2034,7 @@ img.girl :-moz-full-screen {
     color: #fff;
     font-weight: bold;
     width: 50px;
-    height: 50px;    
+    height: 50px;
     padding-top: 8px;
 }
 .container-fluid .interna-seccion2 .listado-notas .educacion-circulo .cuatro-edu2 .numero{
@@ -2024,7 +2044,7 @@ img.girl :-moz-full-screen {
     color: #fff;
     font-weight: bold;
     width: 50px;
-    height: 50px;    
+    height: 50px;
     padding-top: 8px;
     margin-left: -42px;
 }
@@ -2035,7 +2055,7 @@ img.girl :-moz-full-screen {
     color: #fff;
     font-weight: bold;
     width: 50px;
-    height: 50px;    
+    height: 50px;
     padding-top: 8px;
     margin-left: -20px;
 }
@@ -2127,7 +2147,7 @@ img.girl :-moz-full-screen {
     color: #fff;
     font-weight: bold;
     width: 50px;
-    height: 50px;    
+    height: 50px;
     padding-top: 8px;
     margin-left: -44px;
 }
@@ -2138,7 +2158,7 @@ img.girl :-moz-full-screen {
     color: #fff;
     font-weight: bold;
     width: 50px;
-    height: 50px;    
+    height: 50px;
     padding-top: 8px;
     margin-left: -44px;
 }
@@ -2160,7 +2180,7 @@ img.girl :-moz-full-screen {
     padding-right: 50px;
 }
 .container-fluid .interna-seccion2 .listado-notas .educacion-circulo .dos-edu{
-    margin-left: 230px; 
+    margin-left: 230px;
     margin-top: -80px;
 }
 .container-fluid .interna-seccion2 .listado-notas .educacion-circulo .tres-edu{
@@ -2599,7 +2619,7 @@ img.girl :-moz-full-screen {
 }
 .nota-secundaria{
     margin-bottom: 30px;
-    
+
 }
 .conoce .notas .listado-notas .nota-secundaria .titulo {
     color: #153C2B;
@@ -2631,7 +2651,7 @@ img.girl :-moz-full-screen {
 .conoce .notas .listado-notas .nota-secundaria .texto-resaltado {
     color: #000000;
     font-weight: bold;
-    
+
 }
 .conoce .notas .listado-notas .nota-secundaria .texto {
     color: #000000;
@@ -2639,7 +2659,7 @@ img.girl :-moz-full-screen {
     line-height: 1.2em;
     margin-bottom: 40px;
     font-family: 'Open Sans', sans-serif;
-    
+
 }
 
 
@@ -2697,7 +2717,7 @@ img.girl :-moz-full-screen {
     background-color: #0CB4B4;
     border-radius: 20px;
     width: 40px;
-    height: 40px;   
+    height: 40px;
     padding-top: 10px;
     color: #FFF;
     font-weight: bold;
@@ -2734,7 +2754,7 @@ img.girl :-moz-full-screen {
 	border-right-color: #F7F7F7;
 	border-width: 20px;
     margin-top: -20px;
-    transform: rotate(90deg); 
+    transform: rotate(90deg);
 }
 .nota-principal .caja_info2:after{
     right: 97%;
@@ -2749,7 +2769,7 @@ img.girl :-moz-full-screen {
 	border-right-color: #F7F7F7;
 	border-width: 20px;
     margin-top: -20px;
-    transform: rotate(90deg); 
+    transform: rotate(90deg);
 }
 .nota-principal .caja_info2{
     position: relative;
@@ -2924,7 +2944,7 @@ img.girl :-moz-full-screen {
 	border-right-color: #F7F7F7;
 	border-width: 20px;
     margin-top: -20px;
-    transform: rotate(90deg); 
+    transform: rotate(90deg);
 }
 .conoce .color{
     background-color: #F4F2F2;
@@ -3132,7 +3152,7 @@ img.girl :-moz-full-screen {
     overflow: hidden;
     -webkit-box-shadow: 0px 3px 2px 0px rgba(212,212,212,1);
     -moz-box-shadow: 0px 3px 2px 0px rgba(212,212,212,1);
-    box-shadow: 0px 3px 2px 0px rgba(212,212,212,1);  
+    box-shadow: 0px 3px 2px 0px rgba(212,212,212,1);
 }
 .accordion:after {
     content: url(../images/mas-acorde.png);/* Unicode character for "plus" sign (+) */
@@ -3537,7 +3557,7 @@ img.girl :-moz-full-screen {
 }
 
 .container-fluid.medio-bajo .interna-seccion3 .listado-notas .container .carousel.slide .carousel-inner .item.active.alargado{
-    left: 85px;        
+    left: 85px;
 }
 .container-fluid.medio-bajo .interna-seccion3 .listado-notas .container .carousel.slide .carousel-inner .item.active.alargado img {
     width: 25%;
@@ -3683,7 +3703,7 @@ img.girl :-moz-full-screen {
 /*cambios de hover color*/
 
 /*Modal*/
-.modal-confirm {		
+.modal-confirm {
     color: #434e65;
     width: 525px;
 }
@@ -3695,7 +3715,7 @@ img.girl :-moz-full-screen {
 }
 .modal-confirm .modal-header {
     background: #47c9a2;
-    border-bottom: none;   
+    border-bottom: none;
     position: relative;
     text-align: center;
     margin: -20px -20px 0;
@@ -3709,7 +3729,7 @@ img.girl :-moz-full-screen {
 }
 .modal-confirm .form-control, .modal-confirm .btn {
     min-height: 40px;
-    border-radius: 3px; 
+    border-radius: 3px;
 }
 .modal-confirm .close {
     position: absolute;
@@ -3723,7 +3743,7 @@ img.girl :-moz-full-screen {
     opacity: 0.8;
 }
 .modal-confirm .icon-box {
-    color: #fff;		
+    color: #fff;
     width: 95px;
     height: 95px;
     display: inline-block;
@@ -3973,7 +3993,7 @@ select::-ms-expand {
         }
 
         .conoce .publicaciones .prensa .interna-publicacion .titulo{
-            font-size: 20px; 
+            font-size: 20px;
         }
         .conoce .publicaciones .documentos .texto, .conoce .publicaciones .prensa .texto {
             line-height: 12px;
@@ -4057,7 +4077,7 @@ select::-ms-expand {
     }
     .claro .interna-seccion3 .nuero-pre {
         margin-left: 311px;
-    }    
+    }
     .claro .interna-seccion3 .nuero-pre p img {
         width: 230px;
         padding-right: 9px;
@@ -4118,7 +4138,7 @@ select::-ms-expand {
     .conoce .notas .listado-notas .empresa-texto{
         margin-left: 40px;
         width: auto;
-        
+
     }
     #galeria-principal .carousel-inner .item .anuncio {
         margin-left: 72px;
@@ -4219,7 +4239,7 @@ select::-ms-expand {
         margin-top: 0px;
     }
     .accesos .boton{
-        margin: 0px 0px; 
+        margin: 0px 0px;
     }
     .sociales .inferior{
        margin-left: 0px;
@@ -4230,7 +4250,7 @@ select::-ms-expand {
         margin-top: 10px;
         margin-bottom: 49px;
         align-items: right;
-        width: 200px;   
+        width: 200px;
     }
     .tipos .galeria-tipos .control.siguiente {
         bottom: 440px;
@@ -4377,7 +4397,7 @@ select::-ms-expand {
     height: auto;
     padding-bottom: 30px;
 	}
- } 
+ }
 
  @media (max-width: 370px)  {
     .contenido .articulo .tipo{
@@ -4601,7 +4621,7 @@ select::-ms-expand {
 		font-size: 13px !important;
 		margin-left: -21px !important;
 	}
-	
+
     .claro .interna-seccion3 .nuero-pre p img {
         width: 123px !important;
         padding-right: 0px !important;
@@ -4628,9 +4648,9 @@ select::-ms-expand {
         height: 300px;
         width: 300px;
     }
-    
+
  }
- 
+
  @media (min-width: 480px) and (max-width: 767px)  {
   .nav-menu-mobile {
         position: absolute;
@@ -4643,7 +4663,7 @@ select::-ms-expand {
         right: 23px;
         left: 0px;
     }
-    
+
     .nav-menu-bg {
         background: linear-gradient(#143A29, #216144);
         width: 100%;
@@ -4658,11 +4678,11 @@ select::-ms-expand {
         max-height: none;
         height: 100vh;
     }
-    
+
     .nav-menu-bg.collapsed {
         transform: translateY(-907px);
     }
-	
+
 	    .nav-menu-mobile li.nav-menu-item {
         list-style: none;
         text-align: center;
@@ -4680,40 +4700,40 @@ select::-ms-expand {
         font-size: 1.3em;
         text-transform: uppercase;
     }
-	
+
 	.menu-principal {
     width: 100vw;
 	z-index: 99;
 	}
-	
+
 	.miga {
 	display:none;
 	}
-	
+
 	.conoce .publicaciones {
     margin-left: 0;
 	}
-	
+
 	.conoce .publicaciones .prensa .fondo-publicacion .icono img.icono-interno  {
 	width: 25%;
 	}
-	
+
 	.color .interna-seccion2 .listado-texto {
     margin-left: 0;
 	}
-	
+
 	.listado-cintas .opciones-edu {
     margin-left:0;
 	}
-	
+
 	.container-fluid .interna-seccion2 .listado-notas .educacion-titulos {
     margin-left: 0;
 	}
-	
+
 	.interna-seccion2 .listado-cintas .educacion-cinta1 {
     margin: 0;
 	}
-	
+
 	.interna-seccion2 .listado-cintas .educacion-cinta1 p {
     padding-top: 4px;
     padding-left: 0;
@@ -4764,7 +4784,7 @@ select::-ms-expand {
     }
     .interna-seccion2 .listado-notas .hogares-texto p{
         width: 394px;
-    }    
+    }
     .nota-principal .caja_info:after{
         right: 91%;
         top: 85%;
@@ -4773,7 +4793,7 @@ select::-ms-expand {
         width: 100%;
     }
     .listado-cintas .texto3-edu{
-        margin-left: 0px; 
+        margin-left: 0px;
     }
     .conoce .notas .interna-seccion2 .listado-notas #popup:target{
         top: -3px;
@@ -4973,7 +4993,7 @@ select::-ms-expand {
         bottom: 380px;
     }
     /*final de conec banner */
-   
+
     .sociales .comunicado .inferior .redes {
         margin-right: 119px;
     }
@@ -5008,7 +5028,7 @@ select::-ms-expand {
     .conoce .publicaciones .documentos .fondo-publicacion{
         height: 220px !important;
     }*/
-	
+
 	.conoce .publicaciones .documentos .fondo-publicacion {
     min-height: 235px;
 	}
@@ -5142,7 +5162,7 @@ select::-ms-expand {
     }
     .sociales .comunicado .inferior .redes {
        /* width: 64% */
-       margin-right: 86px !important;;       
+       margin-right: 86px !important;;
     }
     .telefono{
         width: 200px !important;
@@ -5159,7 +5179,7 @@ select::-ms-expand {
         height: 335px !important;
     }
  }
- 
+
   @media (min-width: 1280px)  {
 	 .conoce .historial .linea-tiempo {
 		width: 90%;
@@ -5223,7 +5243,7 @@ select::-ms-expand {
     .telefono{
         /*margin-left: 143px;*/
     }
-    
+
     .alinear-izquierda img{
         height: 282px;
     }
@@ -5235,34 +5255,34 @@ select::-ms-expand {
 	.navbar-brand img {
 		margin-left: 12px;
 	}
-	
+
 	.cabezote .interna {
     padding: 26px 40px 50px 55px;
 	}
-	
+
 	.conoce .historial .linea-tiempo {
     width: 95%;
     margin-right: 38px;
 	}
-	
+
 	#dates.nav.nav-tabs {
     margin-left: 35px;
 	}
-	
+
 	.conoce .interna-seccion .control-anterior {
     left: 25px;
 	}
 	.conoce .interna-seccion .control-siguiente {
     right: 25px;
 	}
-	
+
 	.eventos {
     width: 100%;
 	left: 0;
 	}
-	
+
  }
- 
+
  /* responsive de header menu*/
 @media (min-width: 768px) and (max-width: 991px) {
 
@@ -5313,12 +5333,12 @@ select::-ms-expand {
         position: fixed;
         z-index: 7777;
     }
-    
+
     .nav-menu-bg.collapsed {
         transform: translateY(-982px);
         height: 210px;
     }
-	
+
     .nav-menu-item.contact{
         border-bottom: none !important;
     }
@@ -5571,13 +5591,13 @@ select::-ms-expand {
 	padding: 108px 0 0 0;
 	}
 }
- 
+
  @media (max-width : 991px) {
-	 
+
    .conoce .historial .intro-historial .anio {
     margin-top: 60px;
 	}
-	
+
 	.evento .descripcion_tres, .evento .descripcion_dos, .evento .descripcion {
 		width: 70%;
 		display: block;
@@ -5592,11 +5612,11 @@ select::-ms-expand {
     .container-fluid .interna-seccion2 .listado-notas .edu-linea{
         display: block;
     }
-	
+
 	#myCarousel-home .carousel-inner .item.active {
 	min-height: 360px;
 	}
-	
+
 	.nota-principal .caja_info3 {
     width: 100%;
 	}
@@ -5608,182 +5628,182 @@ select::-ms-expand {
     font-family: 'Open Sans', sans-serif;
     width: 100%;
 	}
-	
+
 	.container-fluid.claro .container.interna-seccion3 .listado-notas .container .carousel.slide .carousel-inner.cuadrado {
     left: 55px;
 	}
-	
+
 		.conoce .cabezote .interna .icono-seccion .icono {
     width: 25px;
     margin-top: 3px;
 	}
-	
+
 	.conoce .cabezote .interna .icono-seccion .icono_educaacion {
     margin-top: 3px;
 	}
-	
+
 	.conoce .cabezote .interna .icono-seccion {
 	margin-top: 0px;
 	}
-	
+
 	.cabezote .interna .icono-seccion {
     width: 60px;
     height: 60px;
 	}
-	
+
 	.conoce .cabezote .interna .introduccion-seccion {
     margin-top: -35px;
 	}
-	
+
 	.conoce .preguntas .interna .introduccion-seccion.pqr-class {
-	margin-top: -35px;	
+	margin-top: -35px;
 	}
-	
+
 	.conoce .preguntas .interna .icono-seccion .icono {
     width: 30px;
     margin-top: 3px;
 	}
-	
+
 	.cabezote .interna .icono-seccion .icono {
     fill: #fff;
     width: 15px;
 	}
-	
+
 	.puntos .cabezote {
     height: 395px;
 	}
-	
+
 	.puntos .cabezote .interna .icono-seccion .icono {
     width: 30px;
     margin-top: -62px;
 	}
-	
+
 	#galeria-principal .carousel-inner .item .anuncio {
     margin-top: 50%;
     margin-left: 70px;
     margin-right: 70px;
 	}
-	
+
 	#FacPil {
     display:none;
 	}
  }
- 
+
  @media (max-width: 991px) and (min-width: 480px) {
 	.conoce .publicaciones .prensa {
 		width: 48%;
 	}
-	
+
 	.conoce .publicaciones .documentos .fondo-publicacion {
     height: auto;
 	}
-	
+
 	.conoce .publicaciones .documentos {
     width: 80%;
 	}
  }
- 
+
   @media (max-width: 991px) and (min-width: 767px) {
 	.conoce .publicaciones .documentos {
     width: 50%;
 	}
  }
- 
+
    @media (max-width: 767px) and (min-width: 480px) {
 	.conoce .publicaciones .prensa .fondo-publicacion {
     height: 490px;
 	}
-	
+
 	.conoce .publicaciones .prensa {
     width: 80%;
 	}
-	
+
 	.conoce .publicaciones .prensa .interna-publicacion .vinculo {
     margin-left: -20px;
 	}
-	
+
 	.conoce .publicaciones {
     float: left;
     width: 100%;
 	}
  }
- 
+
  @media (max-width : 767px) {
 	.conoce .cabezote .interna .introduccion-seccion {
 		color: #fff;
 		border-radius: 8px;
 		padding: 40px 20px 0 20px;
 	}
-	
+
 	.nota-cuarta img {
 		width: 20%;
 	}
-	
+
 	#myCarousel-home .carousel-inner .item.active {
 	min-height: 230px;
 	}
-	
+
 	.sociales .comunicado .inferior .redes {
     float: left;
     margin-right: 86px;
 	}
-	
+
 	#myCarousel .carousel-inner {
     width: 90% !important;
-	}	
-	
+	}
+
 	#Contenedor-fp {
 	display:none;
 	}
-	
+
 	.cabezote .interna {
     padding:55px 40px 50px 55px;
 	}
-	
+
 	.modal-body {
     font-size: 32px;
     line-height: 32px;
 	}
 
  }
- 
+
  @media (max-width: 480px) {
 	 #galeria-principal .carousel-inner .item .anuncio {
 		margin-top: 100%;
 		margin-left: 20px;
 		margin-right: 20px;
 	}
-	
+
 	.preguntas-texto .titulo {
     margin-bottom: 155px;
 	}
-	
+
 	.conoce .preguntas .interna .icono-seccion {
     margin-top: -44px;
 	}
-	
+
 	.conoce .preguntas .interna .introduccion-seccion .titulo {
     font-size: 1.8em;
 	}
-	
+
 	.conoce .preguntas .interna .introduccion-seccion.pqr-class {
     margin-top: 15px !important;
 	}
-	
+
 	.conoce .preguntas .interna .icono-seccion .icono {
     margin-top: 0px;
 	}
-	
+
 	.conoce .preguntas {
     height: 340px;
 	}
-	
+
 	.caja_info3 a {
     font-size: 13px;
 	display: block;
     text-align: center;
 	}
-	
+
 	.nota-principal .caja_info3:after {
     display:none;
 	}
@@ -5887,7 +5907,7 @@ select::-ms-expand {
         font-size: 1em !important;
     }
     .conoce .historial .linea-tiempo .anios {
-        margin-left: 0px; 
+        margin-left: 0px;
         margin-right: 0px;
     }
     .tipos .galeria-tipos .contenedor-bateria{
@@ -5916,7 +5936,7 @@ select::-ms-expand {
 		padding: 130px 7px 50px 18px !important;
 		margin-top: 0px !important;
 	}
-	
+
 	.cabezote .interna.tipos {
     margin-top: 0px !important;
 	}
@@ -5951,7 +5971,7 @@ select::-ms-expand {
     }
     .hogares-texto .titulo {
         font-size: 32px;
-    }	
+    }
 	.puntos .cabezote .interna .icono-seccion .icono {
     width: 30px;
     margin-top: -62px;
@@ -5959,11 +5979,11 @@ select::-ms-expand {
 	.puntos .cabezote {
     height: 450px !important;
 	}
-	
+
 	.menu-principal .secciones .seccion {
     width: 105px;
 	}
-	
+
  }
  @media (max-width : 479px){
     .conoce .interna-seccion .control-anterior{
@@ -5981,17 +6001,17 @@ select::-ms-expand {
     .conoce .franja-verde .interna p{
         font-size: 1.1em;
     }
-	
+
 	#myCarousel-home .carousel-inner .item.active {
 	min-height: 170px;
 	}
-	
+
 	.evento {
     margin-bottom: 10px;
     margin-top: 10px;
     padding-left: 0px;
 	}
-	
+
 	.evento .descripcion_tres, .evento .descripcion_dos, .evento .descripcion {
     width: 100%;
     left: 0;
@@ -5999,32 +6019,32 @@ select::-ms-expand {
 	.nota-principal .caja_info2 {
     width: 100%;
 	}
-	
+
 	.formulario-select {
 		margin-top:-50px;
 	}
-	
+
 	.puntos .cabezote .interna .miga {
     display:none;
 	}
-	
+
 	.scroll-wrapper {
 	 overflow: hidden !important;
 	 padding: 0 0 80px 0 !important;
 	 position: relative !important;
 	 min-height: 500px;
 	 }
-	 
+
 	.conoce .historial .intro-historial .anio {
     margin-top: 0;
 	}
-	
+
 	.conoce .historial .linea-tiempo .anios {
     margin-top: 0;
 	}
-	
+
  }
- 
+
  @media (max-width:375px) {
 	.formulario-select {
 		margin-top:30px;
@@ -6033,7 +6053,7 @@ select::-ms-expand {
     padding: 26px 20px 50px 10px;
 	}
  }
- 
+
   @media (min-width: 320px) and (max-width: 479px)  {
     img.girl  {
         display: none;
@@ -6054,7 +6074,7 @@ select::-ms-expand {
         margin-left: 0px;
         margin-bottom: 30px;
     }
-    
+
     .menu-principal .secciones{
         margin-top: -28px;
         margin-right: 40px;
@@ -6099,7 +6119,7 @@ select::-ms-expand {
         padding-top: 0;
         width: 43%;
     }
-    
+
     .nav-menu-bg {
         background: linear-gradient(#143A29, #216144);
         width: 100%;
@@ -6162,7 +6182,7 @@ select::-ms-expand {
         background-image: url('../images/banner-movil/banner-home-5.jpg');
         background-position: center;
     }
-    
+
     .nav-menu-bg.collapsed {
         transform: translateY(-850px);
     }
@@ -6219,7 +6239,7 @@ select::-ms-expand {
         padding-top: 7px;
         height: 50px;
         width: 182px;
-        margin-left: 0px; 
+        margin-left: 0px;
     }
     .contenido .articulo-derecho .secundario-btn{
          margin-right: 0px !important;
@@ -6228,7 +6248,7 @@ select::-ms-expand {
         color: #5C5E5F;
         font-size: 0.7em;
         width: auto;
-        margin-top: 0px; 
+        margin-top: 0px;
     }
 
     .contenido .articulo .tipo {
@@ -6255,15 +6275,15 @@ select::-ms-expand {
     #galeria-principal .carousel-control img{
         width: 30px;
     }
-		
+
 	.puntos .cabezote {
     height: 500px;
 	}
     .container{
-        padding-right: 0px; 
-        padding-left: 0px; 
-        margin-right: auto; 
-        margin-left: auto; 
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
     }
     .fondo_abajo{
         margin-top: -149px;
@@ -6276,8 +6296,8 @@ select::-ms-expand {
         padding-left: 7px;
         padding-right: 7px;
     }
-    .container-fluid>.navbar-collapse, 
-    .container-fluid>.navbar-header, 
+    .container-fluid>.navbar-collapse,
+    .container-fluid>.navbar-header,
     .container>.navbar-collapse,
     .container>.navbar-header{
         margin-right: 0px;
@@ -6390,7 +6410,7 @@ select::-ms-expand {
         padding-left: 20px;
     }
     .listado-notas .empresa-from .form-horizontal span{
-        padding-right: 0px; 
+        padding-right: 0px;
         font-size: 17px;
     }
     .empresa-titulos2 .titulo{
@@ -6490,7 +6510,7 @@ select::-ms-expand {
         float: left;
         margin-top: 20px;
         margin-bottom: 130px;
-        margin-left: 0px; 
+        margin-left: 0px;
         margin-right: 0px;
         text-align: center;
     }
@@ -6501,47 +6521,47 @@ select::-ms-expand {
         height: 300px;
         width: 300px;
     }
-	
+
 	.conoce .cabezote .interna .introduccion-seccion {
     padding: 0px 20px 0 20px !important;
 	}
-	
+
 	.cabezote .interna.puntos {
     padding: 10px;
     margin-top: 115px;
 	}
-	
+
 	.conoce .cabezote .interna .icono-seccion .icono {
     width: 20px;
     margin-top: 3px;
 	}
-	
+
 	.conoce .cabezote .interna .icono-seccion .icono_educaacion {
     margin-top: 3px;
 	}
-	
+
 	.conoce .cabezote .interna .icono-seccion {
 	margin-top: 95px;
 	}
-	
+
 	.cabezote .interna .icono-seccion {
     width: 50px;
     height: 50px;
 	}
-	
+
 	.conoce .cabezote .interna .introduccion-seccion {
     margin-top: 0px;
 	}
-	
+
 	.conoce .cabezote .interna .icono-seccion .icono_educaacion {
     width: 25px;
     margin-top: 3px;
 	}
-	
+
 	.conoce .preguntas .interna .introduccion-seccion.pqr-class {
     margin-top: 15px;
 	}
-	
+
 	.cabezote .interna.tipos {
     margin-top: 105px;
 	}

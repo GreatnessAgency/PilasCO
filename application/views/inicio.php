@@ -2,8 +2,35 @@
   <div id="galeria-principal" class="carousel slide" data-ride="carousel">
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
-      <div class="item active tema-1-2">
-         <!-- <img class="fotografia" src="<?php echo $assets; ?>images/banner_1.png" alt=""> -->
+      <a href="/assets/pdf/reto/Cuento-Grupo-Retrona.pdf" class="item active tema-reto1">
+         <div class="container">
+           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
+           </div>
+         </div>
+      </a>
+      <a href="/assets/pdf/reto/Reto-3-Colegio-Los-Nogales.pdf" class="item tema-reto2">
+         <div class="container">
+           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
+           </div>
+         </div>
+      </a>
+      </a>
+      <a href="/assets/pdf/reto/El-viaje-de-Ecobit.pdf" class="item tema-reto3">
+         <div class="container">
+           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
+           </div>
+         </div>
+      </a>
+
+      </a>
+      <a href="/assets/pdf/reto/Cuento-Reto3-Gimnasio-Campestre-BethShalom.pdf" class="item tema-reto4">
+         <div class="container">
+           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
+           </div>
+         </div>
+      </a>
+
+      <div class="item tema-1-2">
          <div class="container">
            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
              <div class="anuncio ">
@@ -75,7 +102,7 @@
         </div>
       </div>
     </div>-->
-    
+
 <div class="container">
    <div class="accesos">
      <p>Accesos Directos:</p>
@@ -118,12 +145,12 @@
             contenedores ubicados en todo el país, ubica en nuestra página Web el punto de recolección más
             cercano, material educativo y más sobre nuestro programa.</p>
           </div>
-         
+
         </div>
       </section>
       <section class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
         <div class="articulo articulo-izquierdo var-widget-inst">
-          
+
 
           <div id="myCarousel-home" class="carousel slide" data-ride="carousel">
 
@@ -136,7 +163,7 @@
               <div class="item">
                 <img src="<?php echo $assets; ?>images/banner-home-3.jpg" alt="Chicago" style="width:100%;">
               </div>
-            
+
               <div class="item">
                 <img src="<?php echo $assets; ?>images/img-slide-home1.jpg" alt="New york" style="width:100%;">
               </div>
@@ -167,7 +194,7 @@
           <script src="https://apps.elfsight.com/p/platform.js" defer></script>
         <div class="elfsight-app-22c21d93-f888-4473-9498-8476b314c18d"></div>
       </section>
-     
+
 
           <div class="modal fade" id="modal-home" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
               <div class="modal-dialog" role="document">
@@ -178,11 +205,11 @@
                     </button>
                     <img id="img-activa-home" src="" alt="New york" style="width:100%;">
                   </div>
-                 
+
                 </div>
               </div>
           </div>
 
    </div>
-  
+
 </div>
