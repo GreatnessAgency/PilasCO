@@ -14,7 +14,7 @@
            </div>
          </div>
       </a>
-      </a>
+
       <a href="/assets/pdf/reto/El-viaje-de-Ecobit.pdf" class="item tema-reto3">
          <div class="container">
            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
