@@ -2,35 +2,10 @@
   <div id="galeria-principal" class="carousel slide" data-ride="carousel">
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
-      <a href="/assets/pdf/reto/Cuento-Grupo-Retrona.pdf" class="item active tema-reto1">
-         <div class="container">
-           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
-           </div>
-         </div>
-      </a>
-      <a href="/assets/pdf/reto/Reto-3-Colegio-Los-Nogales.pdf" class="item tema-reto2">
-         <div class="container">
-           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
-           </div>
-         </div>
-      </a>
 
-      <a href="/assets/pdf/reto/El-viaje-de-Ecobit.pdf" class="item tema-reto3">
-         <div class="container">
-           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
-           </div>
-         </div>
-      </a>
 
-      </a>
-      <a href="/assets/pdf/reto/Cuento-Reto3-Gimnasio-Campestre-BethShalom.pdf" class="item tema-reto4">
-         <div class="container">
-           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
-           </div>
-         </div>
-      </a>
 
-      <div class="item tema-1-2">
+      <div class="item tema-1-2 item active">
          <div class="container">
            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
              <div class="anuncio ">
