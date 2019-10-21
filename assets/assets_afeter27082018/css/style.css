@@ -356,23 +356,7 @@ _:-ms-fullscreen,
     width: 70px;
 }
 
-#galeria-principal .carousel-inner .tema-1 {
-    background-image: url('../images/banner-home-1.jpg');
-    background-position: center;
-}
 
-#galeria-principal .carousel-inner .tema-2 {
-    background-image: url('../images/banner-home-2.jpg');
-    background-position: center;
-}
-#galeria-principal .carousel-inner .tema-3{
-    background-image: url('../images/banner-home-3.jpg');
-    background-position: center;
-}
-#galeria-principal .carousel-inner .tema-4{
-    background-image: url('../images/banner-home-4.jpg');
-    background-position: center;
-}
 #galeria-principal .carousel-inner .tema-5{
     background-image: url('../images/banner-home-5.jpg');
     background-position: center;
