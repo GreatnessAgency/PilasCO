@@ -87,7 +87,7 @@
   <div class="container-fluid contenido-interna">
     <div class="container interna-seccion4 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style=" height: 500px; width:  100%;">
     <div class="capsula-map">
-        
+
     </div>
       <div id="map" class="cont-mapa-munic"></div>
       <div id="marker-tooltip">
@@ -124,5 +124,5 @@
 </style>
 <script src="<?php echo $assets;?>js/mapa-google.js"></script>
 <script async defer
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCseCtezoJWsKootuItKsfCCmoX65dd11g&callback=initMap">
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8sI9r3eDKnaKs8OkxzD0CIcZualQhY6Y&callback=initMap">
 </script>
