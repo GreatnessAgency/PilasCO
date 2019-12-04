@@ -236,5 +236,6 @@
         });
     });
 </script>
+<script src="https://sandi.ver.com.co/accessibility/js/sandi_v0.1.js#pubID=7tgp54s9xzn2d6h1559683772" id="acc_v1"></script>
 </body>
 </html>
