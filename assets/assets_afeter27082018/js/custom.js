@@ -1,3 +1,12 @@
+/**
+ *
+ * Sera que podemos borrar esto?
+ *
+ */
+
+
+
+
 $(function(){
 
   $( document ).ready(function() {
@@ -9,8 +18,8 @@ $(function(){
          .click(function(event) {
            // On-page links
            if (
-             location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-             && 
+             location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+             &&
              location.hostname == this.hostname
            ) {
              // Figure out element to scroll to
@@ -36,7 +45,7 @@ $(function(){
                });
              }
            }
-        
+
          });
 
     $("#contact_form").submit(function(evn){
@@ -99,18 +108,18 @@ $(function(){
         console.log( "finished" );
       });
     });
-	
+
 	////hide Menu on click contacto mobile ////
-	
+
     $("#hide-menu").click(function(){
         $(".nav-menu-mobile, .nav-menu-bg").hide();
     });
-	
+
 	$('#formGral').on('submit', function(e){
 	  $('#modalGracias').modal('show');
 	  e.preventDefault();
 	});
-     
+
   });
 
 });
