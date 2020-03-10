@@ -1,9 +1,0 @@
-image: mwienk/docker-lftp:latest
-
-build:
-  script:
-    # Sync to FTP
-    - lftp -e "set ssl:verify-certificate no; open $FTP_SERVER; user $FTP_USERNAME $FTP_PASSWORD; mirror -x .git -eRv ./ test_ci/; bye"
-  only:
-    refs:
-      - master
