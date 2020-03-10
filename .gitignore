@@ -1,8 +1,9 @@
 .idea
 landing
-logss
-site_2017
 .DS_Store
+error_log
+cgi-bin
+.well-known
 
 application/config/config.php
 application/config/database.php
