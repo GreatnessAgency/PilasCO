@@ -1,8 +1,9 @@
-.idea
-landing
-.DS_Store
-error_log
 cgi-bin
+landing
+error_log
+
+.idea
+.DS_Store
 .well-known
 
 application/config/config.php
