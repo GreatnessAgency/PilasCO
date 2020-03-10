@@ -124,7 +124,7 @@ body {
 	z-index:999;
 }
 
-/* Animaci贸nes Facilitador Piloso */
+/* Animaciónes Facilitador Piloso */
 
 @-webkit-keyframes swing {
   20% {
@@ -387,7 +387,7 @@ body {
 }
 
 
-/*---- M脡TODOS DE ALINEACI脫N ---- */
+/*---- MÉTODOS DE ALINEACIÓN ---- */
 
 .alinear-izquierda {
     margin-left: -15px;
@@ -624,12 +624,12 @@ _:-ms-fullscreen,
 }
 
 #galeria-principal .carousel-inner .tema-reto2 {
-    background-image: url('../images/banner-reto/web-final-campana-80.jpg');
+    background-image: url('../images/banner-reto/portada_Atom-Alkalina-y-Ecobit-en-la-campana-verde_banner_pilas.png');
     background-position: center;
 }
 
 #galeria-principal .carousel-inner .tema-reto3 {
-    background-image: url('../images/banner-reto/web-final-viaje-80.jpg');
+    background-image: url('../images/banner-reto/PORTADA-CUENTO-ELVIAJEDEECOBIT-RETO_PLANETA-banner-pilas.png');
     background-position: center;
 }
 
@@ -4023,32 +4023,6 @@ select::-ms-expand {
         .conoce .notas .listado-notas .nota-cuarta .texto{
             padding-right: 0px;
         }
-
-        #galeria-principal .carousel-inner .tema-reto1 {
-            background-image: url('../images/banner-movil/banner-home-6.jpg');
-            background-position: center;
-        }
-
-        #galeria-principal .carousel-inner .tema-reto2 {
-            background-image: url('../images/banner-movil/banner-home-7.jpg');
-            background-position: center;
-        }
-
-        #galeria-principal .carousel-inner .tema-reto3 {
-            background-image: url('../images/banner-movil/banner-home-6.jpg');
-            background-position: center;
-        }
-
-        #galeria-principal .carousel-inner .tema-reto4 {
-            background-image: url('../images/banner-movil/banner-frisbey-mobile-01.png');
-            background-position: center;
-        }
-
-
-        #galeria-principal .carousel-inner .tema-1 {
-            display: none;
-        }
-
 }
 
 @media (max-width: 575px) {
@@ -4971,7 +4945,7 @@ select::-ms-expand {
     /*banner comienzo mobil */
 
     #galeria-principal .carousel-inner .tema-1{
-        background-image: url(../images/banner-movil/banner-frisbey-mobile-01.png) !important;
+        background-image: url(../images/banner-movil/banner-frisbey-mobile-01.png);
     }
     #galeria-principal .carousel-inner .tema-1-1{
         background-image: url(../images/banner-movil/banner-home-1.jpg);
@@ -4984,15 +4958,6 @@ select::-ms-expand {
     }
     #galeria-principal .carousel-inner .tema-4{
         background-image: url(../images/banner-movil/banner-home-4.jpg);
-    }
-    #galeria-principal .carousel-inner .tema-5{
-        background-image: url(../images/banner-movil/banner-home-5.jpg);
-    }
-    #galeria-principal .carousel-inner .tema-1-2{
-        background-image: url(../images/banner-movil/banner-home-5.jpg);
-    }
-    #galeria-principal .carousel-inner .tema-5{
-        background-image: url(../images/banner-movil/banner-home-5.jpg);
     }
     #galeria-principal .carousel-inner .tema-5{
         background-image: url(../images/banner-movil/banner-home-5.jpg);
@@ -6602,4 +6567,3 @@ select::-ms-expand {
 	}
 
  }
-

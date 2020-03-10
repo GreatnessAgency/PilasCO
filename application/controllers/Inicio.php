@@ -25,8 +25,6 @@ class Inicio extends CI_Controller
         parent::__construct();
         $this->resources = base_url() . "assets/";
         $this->load->library('email');
-        $this->load->helper('url');
-        $this->load->config('email');
     }
 
     public function index()
@@ -41,7 +39,6 @@ class Inicio extends CI_Controller
         $this->load->view('inicio', $this->tp);
         $this->tp['sectionClass'] = 'bodyhome';
         $this->load->view('inc/footer', $this->tp);
-        $this->load->view('email_view');
     }
 
     public function register()
@@ -110,9 +107,8 @@ class Inicio extends CI_Controller
         }
         if (array_key_exists("mensaje", $data)) {
             $mensaje .= "<b>Mensaje:</b> {$data['mensaje']}";
-
         }
-        if ($this->sendSMTPEmailByMailForm('info-digital@pilascolombia.com', $data['correo'], $mensaje, 'Contactenos', '') !== true) {
+        if ($this->sendSMTPEmailByMail('info-digital@pilascolombia.com', $mensaje, 'Contactenos') !== true) {
             // Generate error
             echo '{"answer": false}';
         } else {
@@ -120,55 +116,16 @@ class Inicio extends CI_Controller
         }
     }
 
-    private function sendSMTPEmailByMail( $to, $msg, $subject, $cc = '')
+    private function sendSMTPEmailByMail($to, $msg, $subject, $cc = '')
     {
-
         $this->load->library('email');
         $result = $this->email
             ->from('info-digital@pilascolombia.com')
-            ->reply_to($cc)
+            ->reply_to($cc)   
             ->to($to)
             ->subject($subject)
             ->message($msg)
             ->send();
-
-            return $result;
-
-    }
-
-    private function sendSMTPEmailByMailForm($from, $to, $msg, $subject, $cc = '')
-    {
-        $result = $this->email
-            ->from($from)
-            ->reply_to($cc)
-            ->to($to)
-            ->subject($subject)
-            ->message($msg)
-            ->send();
-            print_r($this->email->print_debugger());
-
-            return $result;
-    }
-
-    public function send_mail($from, $to, $msg, $subject, $cc = '')
-    {
-
-
-        $this->load->library('email');
-
-        $this->email->from($from)
-            ->to($to)
-            ->subject($subject)
-            ->message($this->load->view($msg, true));
-
-            $this->email->send();
-
-        $arr = array('msg' => 'Something went wrong try again lator', 'success' =>false);
-
-        if($this->email->send()){
-         $arr = array('msg' => 'Mail has been sent successfully', 'success' =>true);
-        }
-        echo json_encode($arr);
-
+        return $result;
     }
 }
