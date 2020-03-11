@@ -4,7 +4,7 @@
    <div class="miga">
         <a href="#">Inicio</a>
         <span> - </span>
-        <a href="#" class="actual">Recolección en  Hogare</a>
+        <a href="#" class="actual">Recolección en  Hogares</a>
       </div>
     <div class="container interna">
       <div class="col-xs-12	col-sm-12	col-md-12 col-lg-12">
@@ -12,7 +12,7 @@
          <img class="icono" src="<?php echo $assets; ?>images/menu/hogar.svg" alt="Conoce el programa">
         </div>
         <div class="introduccion-seccion">
-          <h2 class="titulo">Recolección en  Hogares</h2>
+          <h2 class="titulo">Recolección en  Hogares:</h2>
           <p class="texto">Hemos instalado + de 5.700 puntos de recolección en almacenes de cadena, centros comerciales, conjuntos residenciales, entre otros a nivel nacional, para que puedas entregar tus pilas y/o acumuladores.</p>
         </div>
       </div>
@@ -31,7 +31,7 @@
           <img src="<?php echo $assets; ?>images/casas_hogares1.svg" alt="hogares">
           </div>
           <div class="caja_info col-xs-4 col-sm-4 col-md-4 col-lg-9">Invita a tus vecinos y crea tu propio mini-contenedor.
-             <br><a href="<?php echo $assets; ?>images/documentacion/Como-construir-un-mini-contenedor.pdf" target="_blank" >¿Cómo construir un mini contenedor?</a>
+             <br><a href="<?php echo $assets; ?>images/documentacion/Como-construir-un-mini-contenedor.pdf" target="_blank" >¿Cómo construir un mini contenedor?.</a>
           </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nota-principal">

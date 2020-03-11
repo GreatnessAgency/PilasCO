@@ -11,9 +11,9 @@
          <img class="icono" src="<?php echo $assets; ?>images/menu/ico-preguntas.svg" alt="Conoce el programa">
         </div>
         <div class="introduccion-seccion pqr-class">
-          <h2 class="titulo">Preguntas Frecuentes</h2>
+          <h2 class="titulo">Preguntas Frecuentes:</h2>
           <p class="texto"><span>Ten en cuenta:</span> <br>
-             El programa gestiona los siguientes tipos de baterías: Alcalinas, Zinc carbón y recargables - Pilas domésticas, puede ser formatos AA, AAA, C, D, 9V, 6V,pilas de botón, baterías de celular y de computadores portátiles.</p>
+          El programa gestiona los siguientes tipos de baterías: Alcalinas, Zinc carbón y recargables - Pilas domésticas, puede ser formatos AA, AAA, C, D, 9V, 6V,pilas de botón, baterías de celular y de computadores portátiles.</p>
         </div>
       </div>
     </div>
@@ -101,7 +101,7 @@
          </div>   
          <div class="listado-preguntas col-xs-12	col-sm-12	col-md-12 col-lg-11">
             <h4>¿El programa ofrece la posibilidad de contar con asesorías o charlas informativas en las instituciones educativas participantes del programa?</h4>
-            <p>Para mayor información contáctanos en info-digital@pilascolombia.com</p>
+            <p>Para mayor información contáctanos en <a href="mailto:info-digital@pilascolombia.com">info-digital@pilascolombia.com</a>.</p>
          </div> 
        </div>    
       </div>
@@ -119,8 +119,7 @@
          </div>   
          <div class="listado-preguntas col-xs-12	col-sm-12	col-md-12 col-lg-11">
             <h4>¿De qué se trata el programa de posconsumo de pilas?</h4>
-            <p>Es un programa de educación ciudadana, financiado por varias empresas del sector de pilas en Colombia. Busca incentivar la recolección organizada de las pilas usadas, como parte de una iniciativa consensuada entre el gremio y el gobierno.
-              Responde a su vez a una tendencia mundial en materia de cuidado medioambiental.</p>
+            <p>Es un programa de educación ciudadana, financiado por varias empresas del sector de pilas en Colombia. Busca incentivar la recolección organizada de las pilas usadas, como parte de una iniciativa consensuada entre el gremio y el gobierno. Responde a su vez a una tendencia mundial en materia de cuidado medioambiental.</p>
          </div> 
        </div>    
       </div>
@@ -156,7 +155,7 @@
          </div>   
          <div class="listado-preguntas col-xs-12	col-sm-12	col-md-12 col-lg-11">
             <h4>¿En qué ciudades hay puntos de recolección?</h4>
-            <p>A la fecha tenemos puntos de recolección en Armenia, Arauca, Barranquilla, Bogotá, Bucaramanga, Cali, Cartagena, Cúcuta, Florencia, Ibagué, Ipiales, Manizales, Medellín, Montería, Neiva, Pasto, Pereira, Popayán, Quibdó, San Andrés Islas, Santa Marta, Sincelejo,Tunja, Valledupar, Villavicencio, Yopal. El programa se encuentra en crecimiento gradual esperando llegar a más ciudades.</p>
+            <p>A la fecha tenemos puntos de recolección en Armenia, Arauca, Barranquilla, Bogotá, Bucaramanga, Cali, Cartagena, Cúcuta, Florencia, Ibagué, Ipiales, Manizales, Medellín, Montería, Neiva, Pasto, Pereira, Popayán, Quibdó, San Andrés Islas, Santa Marta, Sincelejo, Tunja, Valledupar, Villavicencio, Yopal. El programa se encuentra en crecimiento gradual esperando llegar a más ciudades.</p>
          </div> 
        </div>    
       </div>
@@ -192,9 +191,7 @@
          </div>   
          <div class="listado-preguntas col-xs-12	col-sm-12	col-md-12 col-lg-11">
             <h4>¿Cuáles son las pilas contaminantes, cómo se reconocen?</h4>
-            <p>Desafortunadamente existe un mercado negro de pilas de contrabando, que se comercializan en puestos callejeros principalmente, que sí contienen mercurio y cadmio adicionado.
-               Se reconocen porque son de marcas desconocidas o que usan el nombre de una empresa de manera irregular (copiado o adulterado). No cuentan con un proceso de fabricación industrializado y por ello mismo pueden presentar fugas de sus componentes tóxicos, generando un alto riesgo para la salud humana.
-               Nuestra recomendación siempre es abstenerse de comprar pilas de este tipo.</p>
+            <p>Desafortunadamente existe un mercado negro de pilas de contrabando, que se comercializan en puestos callejeros principalmente, que sí contienen mercurio y cadmio adicionado. Se reconocen porque son de marcas desconocidas o que usan el nombre de una empresa de manera irregular (copiado o adulterado). No cuentan con un proceso de fabricación industrializado y por ello mismo pueden presentar fugas de sus componentes tóxicos, generando un alto riesgo para la salud humana. Nuestra recomendación siempre es abstenerse de comprar pilas de este tipo.</p>
          </div> 
        </div>    
       </div>
@@ -212,7 +209,7 @@
          </div>   
          <div class="listado-preguntas col-xs-12	col-sm-12	col-md-12 col-lg-11">
             <h4>¿Cómo ser miembro del programa “Pilas con el Ambiente” bajo las obligaciones de los productores (Artículo 14 de la Resolución 1297 de 2010)?</h4>
-            <p>Para mayor información contáctanos en: info-digital@pilascolombia.com</p>
+            <p>Para mayor información contáctanos en: <a href="mailto:info-digital@pilascolombia.com">info-digital@pilascolombia.com</a>.</p>
          </div> 
        </div>    
       </div>
@@ -223,7 +220,7 @@
      <div class="container interna-seccion2">
        <div class="listado-notas">
          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 preguntas-texto">
-           <h3 class="titulo">¡Pilas con el Ambiente! <br>
+           <h3 class="titulo">¡Pilas con el Ambiente!<br>
              <span>Por un consumo responsable.</span>
            </h3>
            <!-- <button class="segundario-empresa centrar-pre">Solicita tu Recolección de pilas</button> -->
