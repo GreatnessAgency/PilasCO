@@ -11,7 +11,7 @@
          <img class="icono_educaacion" src="<?php echo $assets; ?>images/menu/icon-educacion.svg" alt="Conoce el programa">
         </div>
         <div class="introduccion-seccion">
-          <h2 class="titulo">Pilas con la Educación</h2>
+          <h2 class="titulo">Pilas con la Educación:</h2>
           <p class="texto">Invita a tus compañeros, profesores y familiares, a construir su propio Mini Contenedor de Pilas y conviértete en un amigo del ambiente.</p>
         </div>
       </div>
@@ -39,7 +39,7 @@
            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 uno-edu">
              <div class="numero col-xs-1 col-sm-1 col-md-1 col-lg-1">1</div>
              <img class="icono" src="<?php echo $assets; ?>images/educacion/educacion_uno.svg" alt="Conoce el programa">
-             <p>Crea tu propio mini contenedor</p>
+             <p>Crea tu propio mini contenedor.</p>
            </div> 
            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 dos-edu">
              <img class="icono" src="<?php echo $assets; ?>images/educacion/educacion_dos.svg" alt="Conoce el programa">
@@ -70,7 +70,7 @@
               <div class="numero col-xs-1 col-sm-1 col-md-1 col-lg-1">1</div>
               <img class="icono" src="<?php echo $assets; ?>images/educacion/educacion_uno.svg" alt="Conoce el programa">
             </div> 
-            <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1 parrafos-edu"><p>Crea tu propio mini contenedor</p></div>
+            <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1 parrafos-edu"><p>Crea tu propio mini contenedor.</p></div>
             <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 cuatro-edu2">
               <div class="numero col-xs-1 col-sm-1 col-md-1 col-lg-1">2</div>
               <img class="icono" src="<?php echo $assets; ?>images/educacion/educacion-cuatro.svg" alt="Conoce el programa">
@@ -160,7 +160,7 @@
       <div class="container interna-seccion2">
         <div class="listado-cintas">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 educacion-cinta1">
-            <p class="col-xs-12 col-sm-12 col-md-8 col-lg-8">1. Construye tu Contenedor Colegio Piloso<p> 
+            <p class="col-xs-12 col-sm-12 col-md-8 col-lg-8">1. Construye tu Contenedor Colegio Piloso:<p> 
          </div>
          <div class="opciones-edu col-xs-12 col-sm-8 col-md-8 col-lg-6">
            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 texto1-edu">
@@ -191,7 +191,7 @@
          </div>
        <div class="listado-cintas">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 educacion-cinta1">
-            <p class="col-xs-12 col-sm-12 col-md-8 col-lg-8">2. Agentes Pilosos en acción<p> 
+            <p class="col-xs-12 col-sm-12 col-md-8 col-lg-8">2. Agentes Pilosos en acción:<p> 
          </div>
          <div class="col-xs-12 col-sm-8 col-md-8 col-lg-12 texto3-edu">
           <p>Ubícalo en un lugar visible y adecuado. </p>
@@ -201,7 +201,7 @@
           <div class="icon_edu col-xs-12 col-sm-2 col-md-2 col-lg-2">
             <img class="img-responsive" src="<?php echo $assets; ?>images/educacion/nota-edu3.svg" alt="union">
           </div>
-         <div class="caja_info3 col-xs-4 col-sm-4 col-md-4 col-lg-9">Cuando tengas más de 20 kg de pilas solicita tu recolección a <a href="mailto:info-digital@pilascolombia.com" class="link_edu">  info-digital@pilascolombia.com</a></div>
+         <div class="caja_info3 col-xs-4 col-sm-4 col-md-4 col-lg-9">Cuando tengas más de 20 kg de pilas solicita tu recolección a <a href="mailto:info-digital@pilascolombia.com" class="link_edu">  info-digital@pilascolombia.com</a>.</div>
        </div>   
     </div>
   </div>

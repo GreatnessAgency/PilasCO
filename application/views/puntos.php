@@ -11,8 +11,8 @@
           <svg class="icono"><use xlink:href="<?php echo $assets; ?>images/sprites.svg#icono-puntos"></use></svg>
         </div>
         <div class="introduccion-seccion">
-          <h2 class="titulo">Puntos de recolección</h2>
-          <p class="texto">Encuentra tu punto de recolección más cercano y <strong>¡Lleva tus Pilas ya!</strong></p>
+          <h2 class="titulo">Puntos de recolección:</h2>
+          <p class="texto">Encuentra tu punto de recolección más cercano y <strong>¡Lleva tus Pilas ya!.</strong></p>
         </div>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -102,7 +102,7 @@
   <div class="container-fluid menu-puntos">
     <div class="container">
       <a class="boton-puntos" href="#" onclick="toogleLocator()">
-      <img src="<?php echo $assets; ?>images/puntos-cercanos.svg" alt="puntos cercanos">
+      <img src="<?php echo $assets; ?>images/puntos-cercanos.svg" alt="Ver puntos cercanos">
         <p class="texto"></p>
       </a>
     </div>

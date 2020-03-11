@@ -9,7 +9,7 @@
          <div class="container">
            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
              <div class="anuncio ">
-                  <p class="parrafo">Somos una comunidad que trabaja por el <strong>CUIDADO Y PROTECCIÓN DEL AMBIENTE</strong>, recolectando pilas usadas para su disposición final.<br><strong> ¡Tu también puedes ser parte!</strong></p>
+                  <p class="parrafo">Somos una comunidad que trabaja por el <strong>CUIDADO Y PROTECCIÓN DEL AMBIENTE</strong>, recolectando pilas usadas para su disposición final.<br><strong>¡Tu también puedes ser parte!</strong></p>
              </div>
              <!--a class="principal-btn" href="#">¡ÚNETE!</a-->
            </div>
@@ -20,7 +20,7 @@
         <div class="container">
            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
              <div class="anuncio ">
-                  <p class="parrafo">Porque todo en familia es mejor, sé parte de la comunidad que se interesa por el cuidado del ambiente. <br><strong> ¡Hagamos de nuestro hogar un mundo mejor!</strong></p>
+                  <p class="parrafo">Porque todo en familia es mejor, sé parte de la comunidad que se interesa por el cuidado del ambiente.<br><strong>¡Hagamos de nuestro hogar un mundo mejor!</strong></p>
              </div>
              <!--a class="principal-btn" href="#">¡ÚNETE!</a-->
            </div>
@@ -40,7 +40,7 @@
         <div class="container">
            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
              <div class="anuncio ">
-                  <p class="parrafo">Únete a nuestro programa vuélvete una empresa comprometida con el ambiente promoviendo conciencia de recolección.<br><strong> ¡Porque la responsabilidad es de todos!</strong></p>
+                  <p class="parrafo">Únete a nuestro programa y vuélvete una empresa comprometida con el ambiente, promoviendo conciencia de recolección.<br><strong>¡Porque la responsabilidad es de todos!</strong></p>
              </div>
              <!--a class="principal-btn" href="#">¡ÚNETE!</a-->
            </div>
@@ -50,7 +50,7 @@
         <div class="container">
            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
              <div class="anuncio ">
-                  <p class="parrafo">Numerosas instituciones educativas ya hacen parte de la comunidad de “Colegios pilosos”.<br><strong> ¡El cambio comienza con la educación!</strong></p>
+                  <p class="parrafo">Numerosas instituciones educativas ya hacen parte de la comunidad de "Colegios pilosos".<br><strong>¡El cambio comienza con la educación!</strong></p>
              </div>
              <!--a class="principal-btn" href="#">¡ÚNETE!</a-->
            </div>
@@ -83,26 +83,26 @@
      <p>Accesos Directos:</p>
       <a href="<?php echo $site_url;?>/puntos" class="boton">
          <div class="gris">
-         <img src="<?php echo $assets; ?>images/qa-puntos.svg" alt="puntos">
-         <p>Puntos de recolección</p>
+         <img src="<?php echo $assets; ?>images/qa-puntos.svg" alt="Puntos de Recolección">
+         <p>Puntos de recolección:</p>
          </div>
       </a>
       <a href="<?php echo $site_url;?>/tipos" class="boton">
          <div class="gris">
-         <img class="pila-grande" src="<?php echo $assets; ?>images/qa-pilas.svg" alt="tipos">
-         <p>Tipos de pilas</p>
+         <img class="pila-grande" src="<?php echo $assets; ?>images/qa-pilas.svg" alt="Tipos de Pilas">
+         <p>Tipos de pilas:</p>
          </div>
       </a>
       <a href="" class="boton">
          <div class="gris">
-         <img class="pila-grande" src="<?php echo $assets; ?>images/qa-recoleccion.svg" alt="recoleccion">
-         <p>Solicita tu recolección</p>
+         <img class="pila-grande" src="<?php echo $assets; ?>images/qa-recoleccion.svg" alt="Solicita tu recolección">
+         <p>Solicita tu recolección:</p>
          </div>
       </a>
       <a href="<?php echo $site_url;?>/preguntas" class="boton">
          <div class="gris">
-         <img src="<?php echo $assets; ?>images/qa-preguntas.svg" alt="preguntas">
-         <p>Preguntas frecuentes</p>
+         <img src="<?php echo $assets; ?>images/qa-preguntas.svg" alt="Preguntas frecuentes">
+         <p>Preguntas frecuentes:</p>
          </div>
       </a>
    </div>
@@ -112,13 +112,9 @@
    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 "></div>
    <section class="col-xs-12 col-sm-12 col-md-6 col-lg-5 medio">
         <div class="articulo articulo-derecho">
-          <p class="titulo">PILAS<br>CON EL AMBIENTE</p>
+          <p class="titulo">PILAS<br>CON EL AMBIENTE:</p>
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 alinear-izquierda">
-            <p class="parrafo">Desde el año 2011, hemos contribuido con el país, evitando que lleguen toneladas de pilas a los rellenos
-            sanitarios, estamos convencidos que la “La única forma de cambiar hábitos y costumbres es
-            concientizando a la sociedad y uniendo esfuerzos”, por eso te invitamos a que lleves tus pilas a nuestros
-            contenedores ubicados en todo el país, ubica en nuestra página Web el punto de recolección más
-            cercano, material educativo y más sobre nuestro programa.</p>
+            <p class="parrafo">Desde el año 2011, hemos contribuido con el país, evitando que lleguen toneladas de pilas a los rellenos sanitarios, estamos convencidos que la "La única forma de cambiar hábitos y costumbres es concientizando a la sociedad y uniendo esfuerzos", por eso te invitamos a que lleves tus pilas a nuestros contenedores ubicados en todo el país, ubica en nuestra página web el punto de recolección más cercano, material educativo y más sobre nuestro programa.</p>
           </div>
 
         </div>

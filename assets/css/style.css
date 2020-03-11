@@ -124,7 +124,7 @@ body {
 	z-index:999;
 }
 
-/* Animaci¨®nes Facilitador Piloso */
+/* Animaciï¿½ï¿½nes Facilitador Piloso */
 
 @-webkit-keyframes swing {
   20% {
@@ -387,7 +387,7 @@ body {
 }
 
 
-/*---- M0‡7TODOS DE ALINEACI0ˆ7N ---- */
+/*---- Mï¿½0ï¿½7TODOS DE ALINEACIï¿½0ï¿½7N ---- */
 
 .alinear-izquierda {
     margin-left: -15px;
@@ -1148,7 +1148,7 @@ img.girl :-moz-full-screen {
 
 .pie {
     background-color: #153C2B;
-    height: 50px;
+    /*height: 50px;*/
     text-align: center;
 }
 
@@ -1156,10 +1156,11 @@ img.girl :-moz-full-screen {
     color: #fff;
     font-size: 1em;
     font-weight: 400;
+    padding-top: 15px;
 }
-.pie img {
+/*.pie img {
     padding-top: 9px;
-}
+}*/
 
 .foot {
     background-color: #ffffff;

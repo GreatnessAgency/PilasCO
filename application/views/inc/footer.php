@@ -9,7 +9,7 @@
                     <!-- Formulario General -->
                     <section id="formDefault" class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
                         <div class="comunicacion">
-                            <p class="titulo">Escríbenos</p>
+                            <p class="titulo">Escríbenos:</p>
                             <form id="contact_form" class="formulario" method="post" action="#">
                                 <input class="mitad izquierda" type="text" name="nombre" placeholder=" Nombre Completo"
                                        required>
@@ -29,8 +29,8 @@
                                                                            required><span>He leído las<a
                                                     class="enlace-terminos"
                                                     href="<?php echo $assets; ?>images/documentacion/Politicas_PCA.pdf"
-                                                    target="_blank"> Políticas de privacidad</a></span></span></label>
-                                <button type="submit" class="btn btn-default" id="submitButton">Contáctanos</button>
+                                                    target="_blank"> Políticas de privacidad.</a></span></span></label>
+                                <button type="submit" class="btn btn-default" id="submitButton">Contáctanos.</button>
                             </form>
                         </div>
                     </section>
@@ -39,7 +39,7 @@
                     <!-- Formulario Empresas -->
                     <section id="formEmpresas" class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
                         <div class="comunicacion">
-                            <p class="titulo">Escríbenos</p>
+                            <p class="titulo">Escríbenos:</p>
                             <form id="contact_form" class="formulario" method="post" action="#">
                                 <input class="mitad izquierda" type="text" name="nombre" placeholder=" Nombre Completo"
                                        required>
@@ -66,8 +66,8 @@
                                                                            required><span>He leído las<a
                                                     class="enlace-terminos"
                                                     href="<?php echo $assets; ?>images/documentacion/Politicas_PCA.pdf"
-                                                    target="_blank"> Políticas de privacidad</a></span></span></label>
-                                <button type="submit" class="btn btn-default" id="submitButton">Contáctanos</button>
+                                                    target="_blank"> Políticas de privacidad.</a></span></span></label>
+                                <button type="submit" class="btn btn-default" id="submitButton">Contáctanos.</button>
                             </form>
                         </div>
                     </section>
@@ -76,7 +76,7 @@
                     <!-- Formulario Hogares -->
                     <section id="formHogares" class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
                         <div class="comunicacion">
-                            <p class="titulo">Escríbenos</p>
+                            <p class="titulo">Escríbenos:</p>
                             <form id="contact_form" class="formulario" method="post" action="#">
                                 <input class="mitad izquierda" type="text" name="nombre" placeholder=" Nombre Completo"
                                        required>
@@ -89,8 +89,8 @@
                                                                            required><span>He leído las<a
                                                     class="enlace-terminos"
                                                     href="<?php echo $assets; ?>images/documentacion/Politicas_PCA.pdf"
-                                                    target="_blank"> Políticas de privacidad</a></span></span></label>
-                                <button type="submit" class="btn btn-default" id="submitButton">Contáctanos</button>
+                                                    target="_blank"> Políticas de privacidad.</a></span></span></label>
+                                <button type="submit" class="btn btn-default" id="submitButton">Contáctanos.</button>
                             </form>
                         </div>
                     </section>
@@ -99,7 +99,7 @@
 
             </section>
             <section class="sociales">
-                <p class="titulo centrar">Nuestras redes sociales</p>
+                <p class="titulo centrar">Nuestras redes sociales:</p>
                 <section class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
                     <div class="comunicado">
 
@@ -107,25 +107,24 @@
                             <span>Síguenos:</span>
                             <div class="redes">
                                 <a href="https://www.linkedin.com/company/corporaci%C3%B3n-pilas-con-el-ambiente/"
-                                   class="red" target="_blank"><img src="<?php echo $assets; ?>images/redes/lik.svg"
-                                                                    alt=""></a>
+                                   class="red" target="_blank"><img src="<?php echo $assets; ?>images/redes/lik.svg" alt="Linkedin"></a>
                                 <a href="https://www.youtube.com/channel/UCHeANZE9i8pnY5Pf6cbUn5w/feed" class="red"
-                                   target="_blank"><img src="<?php echo $assets; ?>images/redes/ytb.svg" alt=""></a>
+                                   target="_blank"><img src="<?php echo $assets; ?>images/redes/ytb.svg" alt="Youtube"></a>
                                 <a href="https://www.instagram.com/pilascolombia/" class="red" target="_blank"><img
-                                            src="<?php echo $assets; ?>images/redes/it.svg" alt=""></a>
+                                            src="<?php echo $assets; ?>images/redes/it.svg" alt="Instagram"></a>
                                 <a href="https://twitter.com/PilasColombia" class="red" target="_blank"><img
-                                            src="<?php echo $assets; ?>images/redes/tw.svg" alt=""></a>
+                                            src="<?php echo $assets; ?>images/redes/tw.svg" alt="Twitter"></a>
                                 <a href="https://www.facebook.com/comunidadeco" class="red" target="_blank"><img
-                                            src="<?php echo $assets; ?>images/redes/fb.svg" alt=""></a>
+                                            src="<?php echo $assets; ?>images/redes/fb.svg" alt="Facebook"></a>
                             </div>
                             <div class="telefono">
                                 <div class="icono">
-                                    <img class="foto" src="<?php echo $assets; ?>images/telefono_1.svg" alt="">
+                                    <img class="foto" src="<?php echo $assets; ?>images/telefono_1.svg" alt="Número de Teléfono">
                                 </div>
                                 <div class="datos">
-                                    <p class="numero">(571) 4849170</p>
-                                    <p class="numero">ext: 2558</p>
-                                    <p class="ciudad">Bogotá - Colombia</p>
+                                    <p class="numero">(571) 4849170.</p>
+                                    <p class="numero">Ext: 2558.</p>
+                                    <p class="ciudad">Bogotá - Colombia.</p>
                                 </div>
                             </div>
                             <img src="<?php echo $assets; ?>images/girl.png" alt="siguiente" class="girl">
@@ -146,11 +145,11 @@
                 <div class="footr_dv">
                     <ul>
                         <!--<li><a href="<?php echo $site_url; ?>puntos">Solicita tu recolección de pilas</a></li>-->
-                        <li><a href="<?php echo $site_url; ?>preguntas">Preguntas Frecuentes</a></li>
+                        <li><a href="<?php echo $site_url; ?>preguntas">Preguntas Frecuentes.</a></li>
                         <!--dell-printer-support.php-->
-                        <li><a href="<?php echo $site_url; ?>descargas">Descarga recursos y mucho más</a></li>
-                        <li><a href="<?php echo $site_url; ?>puntos">Puntos de recolección</a></li>
-                        <li><a href="<?php echo $site_url; ?>tipos">Tipos de Pilas</a></li>
+                        <li><a href="<?php echo $site_url; ?>descargas">Descarga recursos y mucho más.</a></li>
+                        <li><a href="<?php echo $site_url; ?>puntos">Puntos de recolección.</a></li>
+                        <li><a href="<?php echo $site_url; ?>tipos">Tipos de Pilas.</a></li>
                     </ul>
                 </div>
             </div>
@@ -160,32 +159,24 @@
                         <li><a href="<?php echo $site_url; ?>conoce">Conoce el programa</a></li>
                         <li><a href="<?php echo $site_url; ?>hogares">Recolección en Hogares</a><span
                                     style="color:#0CB4B4"> / </span><a
-                                    href="<?php echo $site_url; ?>empresas">Empresas</a></li>
-                        <li><a href="<?php echo $site_url; ?>educacion">Pilas con la educación</a></li>
+                                    href="<?php echo $site_url; ?>empresas">Empresas.</a></li>
+                        <li><a href="<?php echo $site_url; ?>educacion">Pilas con la educación.</a></li>
                         <li><a href="<?php echo $assets; ?>images/documentacion/Politicas_PCA.pdf" target="_blank">
-                                Políticas de privacidad</a></li>
+                                Políticas de privacidad..</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-4  col-md-4 col-sm-4">
                 <div class="footr_dv sep-footer-links">
-                    <p>Somos parte del&nbsp;&nbsp;<img src="<?php echo $assets; ?>images/retorna.png"/></p>
+                    <p>Somos parte del <img src="<?php echo $assets; ?>images/retorna.png" alt="Grupo Retorna"/></p>
                     <strong>Entérate más:</strong>
                     <div class="programas">
-                        <a class="programa" href="http://www.cierraelciclo.com/" target="_blank"><img
-                                    src="<?php echo $assets; ?>images/programas/cierra.png"
-                                    alt="Vínculo a Cierra el Ciclo"></a>
-                        <a class="programa" href="http://ecocomputo.com/" target="_blank"><img
-                                    src="<?php echo $assets; ?>images/programas/eco.png" alt="Vínculo a Ecocomputo"></a>
-                        <a class="programa" href="#"><img src="<?php echo $assets; ?>images/programas/pilas.png"
-                                                          alt="Vínculo a Pilas con el ambiente"></a>
-                        <a class="programa" href="http://recoenergy.com.co/" target="_blank"><img
-                                    src="<?php echo $assets; ?>images/programas/reco.png"
-                                    alt="Vínculo a Recoenergy"></a>
-                        <a class="programa" href="http://www.redverde.co/" target="_blank"><img
-                                    src="<?php echo $assets; ?>images/programas/red.png" alt="Vínculo a Red verde"></a>
-                        <a class="programa" href="https://www.ruedaverde.com.co/" target="_blank"><img
-                                    src="<?php echo $assets; ?>images/programas/rueda.png" alt="Vínculo a Rueda Verde"></a>
+                        <a class="programa" href="http://www.cierraelciclo.com/" target="_blank"><img src="<?php echo $assets; ?>images/programas/cierra.png" alt="Cierra el Ciclo"></a>
+                        <a class="programa" href="http://ecocomputo.com/" target="_blank"><img src="<?php echo $assets; ?>images/programas/eco.png" alt="Ecocomputo"></a>
+                        <a class="programa" href="#"><img src="<?php echo $assets; ?>images/programas/pilas.png" alt="Pilas con el ambiente"></a>
+                        <a class="programa" href="http://recoenergy.com.co/" target="_blank"><img src="<?php echo $assets; ?>images/programas/reco.png" alt="Recoenergy"></a>
+                        <a class="programa" href="http://www.redverde.co/" target="_blank"><img src="<?php echo $assets; ?>images/programas/red.png" alt="Red verde"></a>
+                        <a class="programa" href="https://www.ruedaverde.com.co/" target="_blank"><img src="<?php echo $assets; ?>images/programas/rueda.png" alt="Rueda Verde"></a>
                     </div>
                 </div>
             </div>
@@ -199,8 +190,7 @@
         <div class="modal-content">
             <div class="modal-body">
                 <div id="myModal-content"></div>
-                <a href="#" data-dismiss="modal"><img class="btn-cerrar-modal"
-                                                      src="<?php echo $assets; ?>images/cerrar-modal.png" alt="Cerrar"></a>
+                <a href="#" data-dismiss="modal"><img class="btn-cerrar-modal" src="<?php echo $assets; ?>images/cerrar-modal.png" alt="Cerrar"></a>
             </div>
         </div>
     </div>
@@ -208,7 +198,7 @@
 
 <footer class="pie">
     <div class="container">
-        <p><img src="<?php echo $assets; ?>images/footlog.png" alt="baterias"></p>
+        <p><img src="<?php echo $assets; ?>images/footlog.png" alt="Zav Agencia Digital"> <script>document.write(new Date().getFullYear())</script></p>
     </div>
 </footer>
 <script src="<?php echo $assets; ?>js/jquery-3.2.1.min.js"></script>
@@ -230,8 +220,8 @@
             speed: 500,
             fade: true,
             arrows: true,
-            prevArrow: '<a class="control anterior"><span class="interior"><img src="<?php echo $assets;?>images/mas.png"/></span></a>',
-            nextArrow: '<a class="control siguiente"><span class="interior"><img src="<?php echo $assets;?>images/menos.png"/></span></a>',
+            prevArrow: '<a class="control anterior"><span class="interior"><img src="<?php echo $assets;?>images/mas.png" alt="Más"/></span></a>',
+            nextArrow: '<a class="control siguiente"><span class="interior"><img src="<?php echo $assets;?>images/menos.png" alt="Menos"/></span></a>',
             cssEase: 'ease-in'
         });
     });

@@ -12,7 +12,7 @@
          <img class="icono" src="<?php echo $assets; ?>images/menu/hogar.svg" alt="Conoce el programa">
         </div>
         <div class="introduccion-seccion">
-          <h2 class="titulo">Empresariales e institucionales</h2>
+          <h2 class="titulo">Empresariales e institucionales:</h2>
         </div>
       </div>
     </div>  
@@ -22,8 +22,8 @@
     <div class="container interna-seccion2">
       <div class="listado-notas">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 empresa-texto">
-          <h3 class="titulo">¡Tú eres el protagonista, nosotros tu equípo!<br>
-          <span>Vincula a tu organización y ayúdale a estar Pilas con el Ambiente promoviendo una cultura de recolección</span></h3>
+          <h3 class="titulo">¡Tú eres el protagonista, nosotros tu equipo!.<br>
+          <span>Vincula a tu organización y ayúdale a estar Pilas con el Ambiente promoviendo una cultura de recolección.</span></h3>
           <p class="texto">Pilas con el Ambiente da un manejo adecuado a las pilas y acumuladores entregados, de acuerdo con la normatividad para el manejo de estos residuos.</p>
       </div>
    </div>
@@ -35,7 +35,7 @@
   <div class="container interna-seccion2">
     <div class="listado-notas">    
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 empresa-titulos">
-          <h3 class="titulo">Participa y conviértete en un líder ambiental.</h3>
+          <h3 class="titulo">Participa y conviértete en un líder ambiental:</h3>
           <p class="parrafo1">Programa tu recolección en las ciudades de Bogotá y Medellín a partir de 8 Kg, en el resto del país (con cobertura) a partir de 40 Kg.</p>
        </div>
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nota-principal">
@@ -128,11 +128,11 @@
           <img src="<?php echo $assets; ?>images/empresa_mano2.svg" alt="union">
           </div>
           <div class="caja_info3 col-xs-4 col-sm-4 col-md-4 col-lg-9">
-            <a class="segundario-empresa" href="#ancla-contacto">Haz tu solicitud de recolección</a>
+            <a class="segundario-empresa" href="#ancla-contacto">Haz tu solicitud de recolección.</a>
           </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 empresa-titulos">
-          <p class="parrafo">Con tu participación, recibirás el certificado de disposición  final sin ningún costo y como reconocimiento del avance de tu organización en gestión ambiental. (Que se entregara en 45 y 60 días)</p>
+          <p class="parrafo">Con tu participación, recibirás el certificado de disposición final sin ningún costo y como reconocimiento del avance de tu organización en gestión ambiental. (Que se entregara en 45 y 60 días).</p>
        </div>
       </div>
     </div>
@@ -143,7 +143,7 @@
        <div class="listado-notas">  
          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 empresa-from">
            <form id="sticker_form" class="form-horizontal col-xs-12 col-sm-12 col-md-8 col-lg-8" action="/action_page.php" method="post">
-              <span class="col-xs-12 col-sm-12 col-md-10 col-lg-10">Descarga los Sticker y arma tu propio mini-contenedor</span>
+              <span class="col-xs-12 col-sm-12 col-md-10 col-lg-10">Descarga los Sticker y arma tu propio mini-contenedor:</span>
               <div class="form-group">
                <div class="col-sm-10">
                   <input type="text" class="form-control" id="Nombre" placeholder="Nombre" name="nombre" required>
@@ -178,7 +178,7 @@
 
             <div class="form-group">        
                <div class="col-sm-offset-2 col-sm-10">
-                <button type="submit" class="btn btn-default">Descargar</button>
+                <button type="submit" class="btn btn-default">Descargar.</button>
               </div>
             </div>
           </form>
