@@ -3,9 +3,24 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
 
+    <div class="item tema-1-3 item active" id="banner1" onclick="location.href='https://www.pilascolombia.com/puntos';">
+         <div class="container">
+           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
+            
+             <!--a class="principal-btn" href="#">¡ÚNETE!</a-->
+           </div>
 
-
-      <div class="item tema-1-2 item active">
+         </div>
+      </div>
+      <div class="item tema-1-4 item" id="banner2" onclick="location.href='https://www.pilascolombia.com/puntos';">
+      <div class="container">
+           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
+             
+             <!--a class="principal-btn" href="#">¡ÚNETE!</a-->
+           </div>
+         </div>
+      </div>
+      <div class="item tema-1-2 item">
          <div class="container">
            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
              <div class="anuncio ">
