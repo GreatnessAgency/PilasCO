@@ -3,7 +3,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner"> 
       <!-- Banner 1 -->
-      <div class="item tema-1-ene-2023 item active" id="banner1-ene-2023" title="Colegios Pilosos" onclick="window.open('https://bit.ly/3ihGqBz','_blank');">
+      <div class="item tema-1-ene-2023 item active" id="banner1-ene-2023" title="Colegios Pilosos" onclick="window.open('https://acortar.link/2nNBvl','_blank');">
          <div class="container">
            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
             
@@ -13,7 +13,7 @@
          </div>
       </div>
       <!-- Banner 2 -->
-      <div class="item tema-2-ene-2023 item " id="banner2-ene-2023" title="Universidades Pilosos" onclick="window.open('https://bit.ly/3IqEbGC','_blank');">
+      <div class="item tema-2-ene-2023 item " id="banner2-ene-2023" title="Universidades Pilosos" onclick="window.open('https://acortar.link/whzS8s','_blank');">
          <div class="container">
            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
             
@@ -23,7 +23,7 @@
          </div>
       </div>
       <!-- Banner 3 -->
-      <div class="item tema-3-ene-2023 item " id="banner3-ene-2023" title="Municipios Pilosos" onclick="window.open('https://bit.ly/3GiQ7Yo','_blank');">
+      <div class="item tema-3-ene-2023 item " id="banner3-ene-2023" title="Municipios Pilosos" onclick="window.open('https://acortar.link/Dim5qW','_blank');">
          <div class="container">
            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
             
@@ -33,7 +33,7 @@
          </div>
       </div>
       <!-- Banner 4 -->
-      <div class="item tema-16 item " id="banner16" title="Centros Comerciales Pilosos" onclick="window.open('https://bit.ly/3QkM0Q9','_blank');">
+      <div class="item tema-16 item " id="banner16" title="Centros Comerciales Pilosos" onclick="window.open('https://acortar.link/jgS9cA','_blank');">
          <div class="container">
            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
             
@@ -43,7 +43,7 @@
          </div>
       </div>
       <!-- Banner 5 -->
-      <div class="item tema-5-ene-2023 item " id="banner5-ene-2023" title="Hoteles Pilosos" onclick="window.open('https://bit.ly/3QmCn3E','_blank');">
+      <div class="item tema-5-ene-2023 item " id="banner5-ene-2023" title="Hoteles Pilosos" onclick="window.open('https://acortar.link/YbfPN7','_blank');">
          <div class="container">
            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
             
@@ -54,7 +54,7 @@
       </div>
 
       <!-- Banner 6 -->
-      <div class="item tema-6-ene-2023 item " id="banner6-ene-2023" title="Iglesias Pilosas" onclick="window.open('https://bit.ly/3vHcUIs','_blank');">
+      <div class="item tema-6-ene-2023 item " id="banner6-ene-2023" title="Iglesias Pilosas" onclick="window.open('https://acortar.link/1RoPC0','_blank');">
          <div class="container">
            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
             
@@ -64,7 +64,7 @@
          </div>
       </div>
       <!-- Banner 7 -->
-      <div class="item tema-7-ene-2023 item " id="banner7-ene-2023" title="Cajas de Compensación Pilosa" onclick="window.open('https://bit.ly/3VJJt2Z','_blank');">
+      <div class="item tema-7-ene-2023 item " id="banner7-ene-2023" title="Cajas de Compensación Pilosa" onclick="window.open('https://acortar.link/VBdFAt','_blank');">
          <div class="container">
            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
             
@@ -73,7 +73,7 @@
          </div>
       </div>
       <!-- Banner 8 -->
-      <div class="item tema-8-ene-2023 item" id="banner8-ene-2023" title="Sector Salud Piloso" onclick="window.open('https://bit.ly/3Zfrzbj','_blank');">
+      <div class="item tema-8-ene-2023 item" id="banner8-ene-2023" title="Sector Salud Piloso" onclick="window.open('https://acortar.link/rvFlOH','_blank');">
          <div class="container">
            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
             
@@ -82,7 +82,7 @@
          </div>
       </div>
       <!-- Banner 9 -->
-      <div class="item tema-9-ene-2023 item" id="banner9-ene-2023" title="CARS Piloso" onclick="window.open('https://bit.ly/3WVQxeA','_blank');">
+      <div class="item tema-9-ene-2023 item" id="banner9-ene-2023" title="CARS Piloso" onclick="window.open('https://acortar.link/Urfj3H','_blank');">
          <div class="container">
            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
             
