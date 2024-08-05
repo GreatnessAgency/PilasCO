@@ -1,0 +1,85 @@
+<script type="text/javascript">
+var cont = 0; 
+var tot = 1;
+
+function checkValue(caja){
+	c = $(caja);
+	if(c.is(':checked')){
+		c.val('t');
+	}else{
+		c.val('f');
+	}
+}
+
+function getNiveles(nu){
+	$('input.levels').val('f');
+	$('input.levels').attr('checked', false);
+	if(nu != ""){
+	$('input.level-'+nu).attr('checked', true);
+	$('input.level-'+nu).val('t');
+	}
+}
+</script>
+<?php if( isset( $alert ) ):?><div id="message"><?=$alert?></div><?php endif?>
+<form name="ZavForm" onSubmit="return sendForm( this, '#main', '<?=$site_url;?>', 'roles/create' );" method="post">
+<div id="general">
+	<div class="title">Roles:</div>
+	<div class="tasks">
+		<div class="filter" style="padding-top:5px">
+			<label><b>Agregando Rol</b></label>
+		</div>
+		<div class="back">
+			<a href="#" onclick="LoadContent( '#main', '<?=$site_url;?>', 'roles' )">
+				<img src="<?=$template;?>images/back.png" alt="Regresar" title="Regresar" /> Regresar al listado
+			</a>
+		</div>
+		<div class="pages">
+			<img src="<?=$template;?>images/info.png" alt="Modo Agregar" title="Modo Agregar" />
+			<label>Esta en modo Agregar</label>
+		</div>
+		<div class="spacer">&nbsp;</div>
+	</div>
+	<div class="content2" style="background:#d3e9f2">
+		<div class="row">            <div class="form-content">                <div class="txt-content">Rol:</div>                <input name="id" id="Nombres" class="input" type="hidden" value=""/>                <input name="rol" id="Nombres" class="input" type="text" value=""/>            </div>					</div>				<div class="row">            <div class="form-content">                <div class="txt-content"><span class="c_red">*</span> Descripcion:</div>                <input name="description" id="Usuario_1" class="input" type="text" value=""/>            </div>					</div>
+		<h3>Permisos gesti&oacute;n del sitio</h3>
+		<div class="web-int web-span-70">
+			<table class="zv-table web-cont">
+				<tr>					<th>Modulo</th>					<th>Crear/Editar</th>					<th>Publicar</th>					<th>Eliminar</th>				</tr>
+			<?php foreach($modules as $md){ ?>
+				<tr>
+					<td><?=$md->description;?></td>
+					<td><input name="obj[permisos][<?=$md->name;?>][edi]" type="checkbox" value="f" onchange="checkValue(this);" class="levels level-0 level-1 level-2 level-3" /></td>
+					<td><input name="obj[permisos][<?=$md->name;?>][pub]" type="checkbox" value="f" onchange="checkValue(this);" class="levels level-0 level-1 level-2" /></td>
+					<td><input name="obj[permisos][<?=$md->name;?>][del]" type="checkbox" value="f" onchange="checkValue(this);" class="levels level-0 level-1" /></td>
+				</tr>
+			<?php }?>
+			</table>
+		</div>
+		<h3>Otros permisos administrador</h3>
+		<div class="web-int web-span-40">
+			<table class="zv-table web-cont">
+				<tr>
+					<th>Modulo</th>
+					<th>Visualizar</th>
+					<th>Descargar</th>
+				</tr>
+				<tr>
+					<th>Registros (logs)</th>
+					<td><input name="obj[permisos][logs][vie]" type="checkbox" value="f" onchange="checkValue(this);" class="levels level-0 level-1" /></td>
+					<td><input name="obj[permisos][logs][dow]" type="checkbox" value="f" onchange="checkValue(this);" class="levels level-0 level-1" /></td>
+				</tr>
+			</table>
+		</div>
+		<h3>Acciones</h3>
+		<div class="row">
+			<div class="actions">
+				<a href="#" onclick="LoadContent( '#main', '<?=$site_url;?>', 'roles' )">
+					<img src="<?=$template;?>images/cancel.png" alt="Cancelar" title="Cancelar" /> Cancelar
+				</a>
+				<input type="image" src="<?=$template;?>images/add.png" alt="Agregar" title="Agregar" class="clean" />
+				<input type="submit" value="Agregar" class="clean" />
+			</div>
+		</div>
+	</div>
+</div>
+</form>

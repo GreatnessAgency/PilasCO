@@ -1,6 +1,31 @@
 $(function () {
 
     $(document).ready(function () {
+        // Acordeon Conoce
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+            panel.style.display = "none";
+            panel.classList.remove("panel-active");
+            } else {
+            panel.style.display = "block";
+            panel.classList.toggle("panel-active");
+            }
+        });
+        }
+        function abrirNuevoTab(url) {
+            // Abrir nuevo tab
+            var win = window.open(url, '_blank');
+            win.focus();
+          }
+          $('#galeria-principal .carousel-inner .item#banner10').click(function(){
+            abrirNuevoTab('https://forms.gle/ETSFd6A9GFh9KioT8')
+          })
         // Transición enlaces IDs y Hashes (#)
         $('a[href*="#ancla-contacto"]')
         // Remove links that don't actually link to anything

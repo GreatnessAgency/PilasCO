@@ -1,0 +1,102 @@
+@charset "utf-8";
+@import "https://fonts.googleapis.com/css?family=Hind:400,300,500";
+
+html{
+ background: url(colpatria-bg.png);
+}
+
+html,body{
+	font-family: 'Hind', sans-serif;
+	font-size: 14px;
+	color: #676767;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+h1,
+h2,
+h3{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h4,
+h5,
+h6{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 14px;
+}
+h6{
+  font-size: 12px;
+}
+
+
+p{
+	margin: 0 0 10px;
+}
+
+.parrafo_gen {
+	font-size: 14px;
+}
+
+.parrafo_desta {
+	font-size: 16px;
+}
+
+.dos-puntos-arriba{
+	font-size: 1.2em;
+}
+
+.un-punto-abajo{
+	font-size: 0.9em;
+}
+
+.un-punto-arriba{
+	font-size: 1.1em;
+}
+
+.dos-puntos-abajo{
+	font-size: 0.8em;
+}
+
+.pr-box-ct {
+    border: 1px solid #EAEAEA;
+    padding: 15px;
+    width: 100%;
+}
+
+.pr-ct-label {
+    font-size: 20px;
+    display: block;
+}
+.pr-ct-num {
+    color: #000;
+    font-size: 25px;
+    display: block;
+}

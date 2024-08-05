@@ -122,8 +122,11 @@
                                     <img class="foto" src="<?php echo $assets; ?>images/telefono_1.svg" alt="Número de Teléfono">
                                 </div>
                                 <div class="datos">
-                                    <p class="numero">(571) 4849170.</p>
-                                    <p class="numero">Ext: 2558.</p>
+                                    <p class="numero">317 331 88 97 Recolección</p>
+                                    <p class="numero">316 027 25 32 Capacitación</p>
+                                    <p class="numero">317 439 20 79 Contenedores</p>
+                                    <p class="numero">318 622 73 20 Información</p>
+                                    <p class="correo"><a href="mailto:pqrs@pilascolombia.com" target="_blank">pqrs@pilascolombia.com</a></p>
                                     <p class="ciudad">Bogotá - Colombia.</p>
                                 </div>
                             </div>
@@ -203,6 +206,8 @@
 </footer>
 <script src="<?php echo $assets; ?>js/jquery-3.2.1.min.js"></script>
 <script src="<?php echo $assets; ?>js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src="<?php echo $assets; ?>js/slick.min.js"></script>
 <script src="<?php echo $assets; ?>js/header.js"></script>
 <script src="<?php echo $assets; ?>js/custom.js"></script>
@@ -217,6 +222,7 @@
             infinite: true,
             slidesToShow: 1,
             centerMode: true,
+            autoplaySpeed: 50,
             speed: 500,
             fade: true,
             arrows: true,
@@ -226,6 +232,7 @@
         });
     });
 </script>
-<script src="https://sandi.ver.com.co/accessibility/js/sandi_v0.1.js#pubID=7tgp54s9xzn2d6h1559683772" id="acc_v1"></script>
+<script src="https://sandi.ver.com.co/accessibility/js/sandi_v0.2.js#pubID=7tgp54s9xzn2d6h1559683772" id="acc_v1"></script>
+<div class="bajaVision VAccessibility" id="sandiAccesibility" style="z-index:99999;left: 0;"><ul style="list-style: none;padding: 0!important;"><li class="VAccessibilityIL"><a onclick="helpSandi();" title="Ayuda" class="VAccessibility"><i class="material-icons dp48 bajaVisionText" style="font-size: 4em;">help</i></a></li><li class="VAccessibilityIL"><a onclick="changeFilter('vaccGeral');" title="Cambiar contraste" class="VAccessibility" id="sandiFilter"><i class="material-icons dp48 bajaVisionText" style="font-size: 4em;">visibility</i></a></li><li class="VAccessibilityIL"><a onclick="grow_cursor();" title="Nuevo cursor" class="VAccessibility" id="sandiFilter"><i class="material-icons dp48 bajaVisionText" style="font-size: 4em;">mouse</i></a></li><li class="VAccessibilityIL"><a id="zoomIn;" onclick="zoomIn_();" title="Aumentar tamaño de letra" class="VAccessibility"><i class="material-icons dp48 bajaVisionText" style="font-size: 4em;">add_box</i></a></li><li class="VAccessibilityIL"><a id="Out;" onclick="zoomOut_();" title="Disminuir tamaño de letra" class="VAccessibility"><i class="material-icons dp48 bajaVisionText" style="font-size: 4em;">indeterminate_check_box</i></a></li><li class="VAccessibilityIL"><a onclick="disableAudio();" title="Activar/Descativar Voz" class="VAccessibility"><i class="material-icons dp48 bajaVisionText" style="font-size: 4em;">volume_up</i></a></li><li class="VAccessibilityIL"><a onclick="modoLectura();" title="Modo de lectura" class="VAccessibility"><i class="material-icons dp48 bajaVisionText" style="font-size: 4em;">record_voice_over</i></a></li><!--li><a onclick="changeFilter('vaccGeral');" title="Descargar Texto" class="VAccessibility"><i class="material-icons dp48 bajaVisionText" style="font-size: 4em;">cloud_download</i></a></li--><li class="VAccessibilityIL"><a onclick="location.reload(true);" title="Reiniciar configuraciones" class="VAccessibility"><i class="material-icons  dp48 bajaVisionText" style="font-size: 4em;">replay</i></a></li><li class="VAccessibilityIL"><strong><a href="http://www.ver.com.co" target="_eblank" title="Soluciones Integrales Ver SAS" class="VAccessibility"><i class="material-icons  dp48 bajaVisionText" style="font-size: 1em;"> ©VER</i></a></strong></li></ul></div>
 </body>
 </html>

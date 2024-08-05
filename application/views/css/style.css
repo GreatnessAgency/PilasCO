@@ -434,6 +434,7 @@ _:-ms-fullscreen,
     -moz-box-shadow: 6px 6px 44px -12px rgba(0, 0, 0, 0.75);
     box-shadow: 6px 6px 44px -12px rgba(0, 0, 0, 0.75);
     border-radius: 10px;
+   
 }
 
 .contenido .articulo .tipo {
@@ -5091,7 +5092,10 @@ img.girl :-moz-full-screen {
     width: 30px;
     margin-top: -62px;
 	}
-
+    
+    #galeria-principal .carousel-inner{
+        height: 500px !important;
+    }
 
  }
 

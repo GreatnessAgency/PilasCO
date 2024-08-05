@@ -26,10 +26,12 @@
        <div class="container-fluid col-xs-12 col-sm-12 col-md-12 col-lg-12">
          <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-10">
            <div class="listado-preguntas col-xs-12	col-sm-12	col-md-12 col-lg-8">
-             <p>Descarga las instrucciones para crear tu mini contenedor.</p>
+             <p>Conoce las instrucciones para crear tu mini contenedor.</p>
            </div> 
            <div class="nuero-pre col-xs-6	col-sm-5 col-md-3 col-lg-3">
-             <p><a href="<?php echo $assets; ?>images/documentacion/Como-construir-un-mini-contenedor.pdf" download><img class="icono" src="<?php echo $assets; ?>images/descarga1.svg" ></a></p>
+               
+             <p><a  href="https://www.youtube.com/watch?v=M42GoiZvvTU" target="_blank" download><img class="icono" src="<?php echo $assets; ?>images/descarga1.svg" ></a>
+             <!--<a href="<?php echo $assets; ?>images/documentacion/Como-construir-un-mini-contenedor.pdf" download><img class="icono" src="<?php echo $assets; ?>images/descarga1.svg" ></a></p>-->
            </div>   
          </div>    
        </div>

@@ -23,16 +23,19 @@ class Puntos extends CI_Controller {
 	{
        parent::__construct();
        $this->resources = base_url()."assets/";
+			 $this->load->database(); 
+
 	}
 	
 	public function index()	{
+		$module = $this->db->get_where('web_puntosderecoleccion', array('status_id' => 'publico'));
 		$this->tp['title'] = "Puntos de Recoleccion";
 		$this->tp['assets'] = $this->resources;	
 		$this->tp['site_url'] = base_url();
 		$this->load->view('inc/head', $this->tp);
 		$this->tp['formDefault'] = true;
 		$this->load->view('inc/header', $this->tp);
-		
+		$this->tp['puntos'] = json_encode($module->result_array());
 		$this->load->view('puntos', $this->tp);
 		$this->tp['sectionClass']='bodyhome';
 		$this->load->view('inc/footer', $this->tp);

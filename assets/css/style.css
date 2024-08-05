@@ -7,7 +7,9 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.row {
+    width: 100%;
+}
 :focus {
     outline: 0px;
 }
@@ -670,7 +672,90 @@ _:-ms-fullscreen,
     background-image: url('../images/banner-home-5.jpg');
     background-position: center;
 }
+#galeria-principal .carousel-inner .tema-6{
+    background-image: url('../images/banner-home-6.jpg');
+    background-position: center;
+}
+#galeria-principal .carousel-inner .tema-7{
+    background-image: url('../images/banner-home-7.jpg');
+    background-position: center;
+}
 
+#galeria-principal .carousel-inner .tema-9{
+    background-image: url('../images/banner-home-9.jpg');
+    background-position: center;
+}
+
+#galeria-principal .carousel-inner .tema-11 {
+    background-image: url('../images/banner-home-11.jpg');
+    background-position: center;
+}
+
+#galeria-principal .carousel-inner .tema-12 {
+    background-image: url('../images/BANNER-PILAS-COLEGIOS-PILOSOS.jpeg');
+    background-position: center;
+    cursor:pointer;
+}
+#galeria-principal .carousel-inner .tema-13 {
+    background-image: url('../images/banner-pilas-uni-pilosas-dk.jpeg');
+    background-position: center;
+    cursor:pointer;
+}
+#galeria-principal .carousel-inner .tema-14 {
+    background-image: url('../images/banner-municipios-pilosos-nevo.jpg');
+    background-position: center;
+    cursor:pointer;
+}
+#galeria-principal .carousel-inner .tema-15 {
+    background-image: url('../images/banner-home-15.jpg');
+    background-position: center;
+    cursor:pointer;
+}
+#galeria-principal .carousel-inner .tema-16 {
+    background-image: url('../images/banner-centros-comerciales.jpg');
+    background-position: center;
+    cursor:pointer;
+}
+#galeria-principal .carousel-inner .tema-1-ene-2023 {
+    background-image: url('../images/banner-home-1-ene-2023.jpg');
+    background-position: center;
+    cursor:pointer;
+}
+#galeria-principal .carousel-inner .tema-2-ene-2023 {
+    background-image: url('../images/banner-home-2-ene-2023.jpg');
+    background-position: center;
+    cursor:pointer;
+}
+#galeria-principal .carousel-inner .tema-3-ene-2023 {
+    background-image: url('../images/banner-home-3-ene-2023.jpg');
+    background-position: center;
+    cursor:pointer;
+}
+#galeria-principal .carousel-inner .tema-5-ene-2023 {
+    background-image: url('../images/banner-home-5-ene-2023.jpg');
+    background-position: center;
+    cursor:pointer;
+}
+#galeria-principal .carousel-inner .tema-6-ene-2023 {
+    background-image: url('../images/banner-home-6-ene-2023.jpg');
+    background-position: center;
+    cursor:pointer;
+}
+#galeria-principal .carousel-inner .tema-7-ene-2023 {
+    background-image: url('../images/banner-home-7-ene-2023.jpg');
+    background-position: center;
+    cursor:pointer;
+}
+#galeria-principal .carousel-inner .tema-8-ene-2023 {
+    background-image: url('../images/banner-home-8-ene-2023.jpg');
+    background-position: center;
+    cursor:pointer;
+}
+#galeria-principal .carousel-inner .tema-9-ene-2023 {
+    background-image: url('../images/banner-home-9-ene-2023.jpg');
+    background-position: center;
+    cursor:pointer;
+}
 #galeria-principal .carousel-inner .item {
     background-size: cover;
     width: 100%;
@@ -984,31 +1069,47 @@ _:-ms-fullscreen,
     margin-top: 23px;
     margin-bottom: 49px;
     align-items: right;
-    width: 300px;
+    width: 100%;
     margin-left: -17px;
 }
 
 .telefono .icono {
-    float: left;
+    display: inline-block;
+    vertical-align: top;
+    width: 10%;
 }
 
 .telefono .icono .foto {
-    width: 66px;
-    margin-right: -21px;
+    width: 230%;
+    margin-right: 0;
+    transform: translateX(-20px);
 }
 
-.telefono .datos {}
+.telefono .datos {
+    vertical-align: top;
+    display: inline-block;
+    width: 88%;
+}
 
 .telefono .datos .numero {
     color: #4A494A;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.1em;
+    font-size: 0.8em;
     font-weight: 200;
     letter-spacing: 0.05em;
     margin: 0;
     font-weight: bold;
 }
-
+.telefono .datos .correo a {
+    color: #4A494A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em;
+    font-weight: 200;
+    letter-spacing: 0.05em;
+    margin: 0;
+    font-weight: bold;
+    display: block;
+}
 .telefono .datos .ciudad {
     margin: 0 0 0 0;
     font-size: 1em;
@@ -1033,7 +1134,7 @@ img.girl  {
     position: absolute;
     width: 204px;
     margin-top: -80px;
-    margin-left: 86px;
+    margin-left: 46px;
 }
 
 img.girl :-moz-full-screen {
@@ -1282,7 +1383,7 @@ img.girl :-moz-full-screen {
 }
 
 .puntos .cabezote .interna .introduccion-seccion {
-    margin-top: -40px;
+    margin-top: 10px;
 }
 
 .puntos .cabezote .interna .introduccion-seccion .titulo {
@@ -1548,6 +1649,7 @@ img.girl :-moz-full-screen {
     color: #fff;
     font-weight: bold;
     font-size: 20px;
+    padding: 10px 8px;
 }
 
 .nav-tabs>li>a:hover{
@@ -2656,6 +2758,7 @@ img.girl :-moz-full-screen {
 .aprobado{
     float: left;
     padding-right: 16px;
+    padding-bottom: 30px;
 }
 .conoce .notas .listado-notas .nota-secundaria .texto-resaltado {
     color: #000000;
@@ -2704,8 +2807,8 @@ img.girl :-moz-full-screen {
     background-repeat: no-repeat;
 }
 .nota-tercera .panel p{
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 /* final conoce*/
@@ -3089,6 +3192,17 @@ img.girl :-moz-full-screen {
  .input-sm{
     font-size: 14px !important;
  }
+
+ table.table-fundadores {
+    padding-left: 150px;
+    padding-right: 150px;
+    display: block;
+    padding-bottom: 15px;
+}
+
+table.table-fundadores td {
+    padding: 5px 16px 0 0;
+} 
  /*final de pop up*/
 
 /* Style the buttons that are used to open and close the accordion panel */
@@ -3100,6 +3214,9 @@ img.girl :-moz-full-screen {
     width: 100%;
     border: none;
     outline: none;
+    font-size: 18px;
+    display: block;
+    width: 100% !important;
 }
 
 .btn-default{
@@ -3148,6 +3265,7 @@ img.girl :-moz-full-screen {
     -webkit-transition-duration: all 0.3s ease-in-out;
     -o-transition-duration: all 0.3s ease-in-out;
     transition-duration: all 0.3s ease-in-out;
+    color: #fff;
 }
 
 /* Style the accordion panel. Note: hidden by default */
@@ -3175,7 +3293,7 @@ img.girl :-moz-full-screen {
     transition: all 1s ease-in-out;
 }
 
-.activo:after {
+.accordion.active:after {
     content: url(../images/menos-acorde.png); /* Unicode character for "minus" sign (-) */
     background-repeat: no-repeat;
     color: #fff;
@@ -3595,6 +3713,9 @@ img.girl :-moz-full-screen {
     height: 54px;
     text-align: center;
 }
+.interna-seccion a.accordion:focus{
+    color: #fff;
+}
 .interna-seccion .container h2{
     color: #153C2B;
     font-family: 'Montserrat', sans-serif;
@@ -3899,6 +4020,51 @@ select::-ms-expand {
 	/* remove default arrow on ie10 and ie11 */
 }
 
+/** Tabs **/
+.faq-section .mb-0 > a {
+    display: block;
+    position: relative;
+}
+
+.faq-section .mb-0 > a:after {
+    content: "\f067";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    right: 0;
+    font-weight: 600;
+}
+
+.faq-section .mb-0 > a[aria-expanded="true"]:after {
+    content: "\f068";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+}
+.card {
+    background-color: transparent; 
+    border: 0;
+}
+
+.card .card-header {
+    background-color: transparent;
+    border: 0
+    ;padding: 0;
+}
+
+
+/* Modal */
+.modal-open .modal {position: fixed;width: 100%;height: 100%;z-index: 9999999;opacity: 1;}
+
+.modal-open .modal p {color: #4d4d4d;font-size: 28px;}
+
+.modal-open .modal a {position: absolute;top: -25px;margin: 0;right: -20px;background-color: #fff;border-radius: 50%;}
+
+.modal-open .modal a .btn-cerrar-modal {margin: 0;}
+
+.modal-open .modal .modal-body {background-color: #fff;border-radius: 16px;padding: 30px;}
+
+.modal-open .modal .modal-body #myModal-content {width: 90%;max-width: 460px;margin: 0 auto;}
+
+.modal-open .modal p strong {font-size: 30px;margin-top: 20px;display: block;}
 
 /* target Internet Explorer 9 to undo the custom arrow */
 
@@ -3965,8 +4131,15 @@ select::-ms-expand {
         }
         .notas .interna-seccion .images-conoce img{
             padding-bottom: 40px;
-            padding-left: 20px;
+            padding-left: 10px;
             padding-right: 20px;
+            width: 49%;
+        }
+        .conoce .historial .intro-historial .titulo{
+            font-size: 3.2em;
+        }
+        .conoce .historial .intro-historial .anio{
+            font-size: 3.8em;
         }
         .conoce .publicaciones {
             float: left;
@@ -4031,6 +4204,7 @@ select::-ms-expand {
         }
         .conoce .notas .listado-notas .nota-cuarta .texto{
             padding-right: 0px;
+            padding-left: 30px;
         }
 }
 
@@ -4072,14 +4246,168 @@ select::-ms-expand {
         text-align: center;
         margin: auto;
     }
+    .telefono .datos .numero {
+        font-size: 1em;
+    }
+    /*banner comienzo mobil */
+    #galeria-principal .carousel-inner .tema-1-3{
+        background-image: url(../images/banner-movil/banner-home-mobile-1-3.jpg);
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    #galeria-principal .carousel-inner .tema-1-4{
+        background-image: url(../images/banner-movil/banner-home-mobile-1-4.jpg);
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    #galeria-principal .carousel-inner .tema-1{
+        background-image: url(../images/banner-movil/banner-frisbey-mobile-01.png);
+    }
+    #galeria-principal .carousel-inner .tema-1-1{
+        background-image: url(../images/banner-movil/banner-home-1.jpg);
+    }
+    #galeria-principal .carousel-inner .tema-2{
+        background-image: url(../images/banner-movil/banner-home-2.jpg);
+    }
+    #galeria-principal .carousel-inner .tema-3{
+        background-image: url(../images/banner-movil/banner-home-3.jpg);
+    }
+    #galeria-principal .carousel-inner .tema-4{
+        background-image: url(../images/banner-movil/banner-home-4.jpg);
+    }
+    #galeria-principal .carousel-inner .tema-5{
+        background-image: url(../images/banner-movil/banner-home-5.jpg);
+    }
+    #galeria-principal .carousel-inner .tema-6{
+        background-image: url(../images/banner-movil/banner-home-6.jpg);
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    #galeria-principal .carousel-inner .tema-7{
+        background-image: url(../images/banner-movil/banner-home-7.jpg);
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    
+    #galeria-principal .carousel-inner .tema-9{
+        background-image: url(../images/banner-movil/banner-home-9.jpg);
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    #galeria-principal .carousel-inner .tema-11{
+        background-image: url(../images/banner-movil/banner-home-11.jpg);
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    #galeria-principal .carousel-inner .tema-12{
+        background-image: url(../images/banner-movil/BANNER-PILAS-COLEGIOS-PILOSOS.jpeg);
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-color: #407e35;
+    }
+    #galeria-principal .carousel-inner .tema-13 {
+        background-image: url(../images/banner-movil/banner-pilas-uni-pilosas.jpeg);
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-color: #08436b;
+    }
+    #galeria-principal .carousel-inner .tema-14 {
+        background-image: url(../images/banner-movil/banner-municipios-pilosos-nuevo.jpg);
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-color: #08436b;
+    }
+    #galeria-principal .carousel-inner .tema-15 {
+        background-image: url(../images/banner-movil/banner-home-15.jpg);
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-color: transparent;
+    }
+    
+    #galeria-principal .carousel-inner .tema-1-ene-2023 {
+        background-image: url('../images/banner-movil/banner-home-1-ene-2023.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
+    #galeria-principal .carousel-inner .tema-2-ene-2023 {
+        background-image: url('../images/banner-movil/banner-home-2-ene-2023.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
+    #galeria-principal .carousel-inner .tema-3-ene-2023 {
+        background-image: url('../images/banner-movil/banner-home-3-ene-2023.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
+    #galeria-principal .carousel-inner .tema-5-ene-2023 {
+        background-image: url('../images/banner-movil/banner-home-5-ene-2023.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
+    #galeria-principal .carousel-inner .tema-6-ene-2023 {
+        background-image: url('../images/banner-movil/banner-home-6-ene-2023.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
+    #galeria-principal .carousel-inner .tema-7-ene-2023 {
+        background-image: url('../images/banner-movil/banner-home-7-ene-2023.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
+    #galeria-principal .carousel-inner .tema-8-ene-2023 {
+        background-image: url('../images/banner-movil/banner-home-8-ene-2023.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
+    #galeria-principal .carousel-inner .tema-9-ene-2023 {
+        background-image: url('../images/banner-movil/banner-home-9-ene-2023.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
+    #galeria-principal .carousel-inner .tema-15 .container{
+        background: rgba(226,226,226,1);
+        background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(255,255,255,1) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,226,226,1)), color-stop(100%, rgba(255,255,255,1)));
+        background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(255,255,255,1) 100%);
+        background: -o-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(255,255,255,1) 100%);
+        background: -ms-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(255,255,255,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#ffffff', GradientType=0 );
+    }
+    #galeria-principal .carousel-inner .tema-16 {
+        background-image: url('../images/banner-movil/banner-municipios-pilosos-nevo.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
+    /*final de banner movil*/
+    #galeria-principal .carousel-inner {
+        height: 800px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+        margin-top: -10px;
+    }
+    .navbar>.container .navbar-brand .nav-img {
+        height: 60px;
+    }
+
     .menu-mobile {
         display: none !important;
     }
     .menu-principal .secciones {
-        margin-right: -30px !important;
+        margin-right: -70px !important;
     }
     .medida{
         text-align: center;
@@ -4094,10 +4422,27 @@ select::-ms-expand {
     .claro .interna-seccion3 .nuero-pre p {
         line-height: 198px;
     }
-
+    .telefono .datos .numero {
+        font-size: 1em;
+    }
+    
 }
-
+@media (min-width: 992px) and (max-width: 1400px) {
+    #sandiAccesibility {
+        transform: scale(0.8);
+        margin-left: -10px;
+    }
+    #galeria-principal .carousel-inner .item .anuncio{
+        margin-left: 20%;
+    }
+    #galeria-principal .carousel-control.left {
+        left: 2.4%;
+    }
+}
 @media (min-width: 1200px) {
+    .telefono .datos .numero {
+        font-size: 1em;
+    }
     .sociales .comunicado .inferior .redes{
         margin-right: 85px !important;
     }
@@ -4226,6 +4571,11 @@ select::-ms-expand {
     .tipos .galeria-tipos .control.siguiente {
         bottom: 121px;
     }
+    .bajaVision {
+        transform: scale(0.7);
+        left: -17px !important;
+        top: 29% !important;
+    }
  }
 
  @media (min-width: 768px) and (max-width: 1010px)  {
@@ -4268,6 +4618,12 @@ select::-ms-expand {
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+    
+    .bajaVision {
+        transform: scale(0.7);
+        left: -17px !important;
+        top: 29% !important;
     }
  }
 
@@ -4406,6 +4762,11 @@ select::-ms-expand {
     height: auto;
     padding-bottom: 30px;
 	}
+    .bajaVision {
+        top: 0% !important;
+        transform: scale(0.6);
+        margin-left: -20px;
+    }
  }
 
  @media (max-width: 370px)  {
@@ -4620,7 +4981,7 @@ select::-ms-expand {
         font-size: 18px;
     }
     .listado-notas .edu-linea .dos-educacion img{
-        margin-left: 40px;
+        margin-left: -30px;
     }/*final*/
     /*preguntas*/
     .preguntas-texto .titulo span{
@@ -4982,6 +5343,106 @@ select::-ms-expand {
     #galeria-principal .carousel-inner .tema-5{
         background-image: url(../images/banner-movil/banner-home-5.jpg);
     }
+    #galeria-principal .carousel-inner .tema-6{
+        background-image: url(../images/banner-movil/banner-home-6.jpg);
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    #galeria-principal .carousel-inner .tema-7{
+        background-image: url(../images/banner-movil/banner-home-7.jpg);
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    
+    #galeria-principal .carousel-inner .tema-9{
+        background-image: url(../images/banner-movil/banner-home-9.jpg);
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    #galeria-principal .carousel-inner .tema-11{
+        background-image: url(../images/banner-movil/banner-home-11.jpg);
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    #galeria-principal .carousel-inner .tema-12{
+        background-image: url(../images/banner-movil/BANNER-PILAS-COLEGIOS-PILOSOS.jpeg);
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-color: #407e35;
+    }
+    #galeria-principal .carousel-inner .tema-13 {
+        background-image: url(../images/banner-movil/banner-pilas-uni-pilosas.jpeg);
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-color: #08436b;
+    }
+    #galeria-principal .carousel-inner .tema-14 {
+        background-image: url(../images/banner-movil/banner-municipios-pilosos-nuevo.jpg);
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-color: #08436b;
+    }
+    
+    #galeria-principal .carousel-inner .tema-15 {
+        background-image: url(../images/banner-movil/banner-home-15.jpg);
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    
+    #galeria-principal .carousel-inner .tema-16 {
+        background-image: url('../images/banner-movil/banner-centros-comerciales.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
+    
+    #galeria-principal .carousel-inner .tema-1-ene-2023 {
+        background-image: url('../images/banner-movil/banner-home-1-ene-2023.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
+    #galeria-principal .carousel-inner .tema-2-ene-2023 {
+        background-image: url('../images/banner-movil/banner-home-2-ene-2023.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
+    #galeria-principal .carousel-inner .tema-3-ene-2023 {
+        background-image: url('../images/banner-movil/banner-home-3-ene-2023.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
+    #galeria-principal .carousel-inner .tema-5-ene-2023 {
+        background-image: url('../images/banner-movil/banner-home-5-ene-2023.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
+    #galeria-principal .carousel-inner .tema-6-ene-2023 {
+        background-image: url('../images/banner-movil/banner-home-6-ene-2023.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
+    #galeria-principal .carousel-inner .tema-7-ene-2023 {
+        background-image: url('../images/banner-movil/banner-home-7-ene-2023.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
+    #galeria-principal .carousel-inner .tema-8-ene-2023 {
+        background-image: url('../images/banner-movil/banner-home-8-ene-2023.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
+    #galeria-principal .carousel-inner .tema-9-ene-2023 {
+        background-image: url('../images/banner-movil/banner-home-9-ene-2023.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
     /*final de banner movil*/
     /*contenido info banner movil*/
     .info-banner-movil{
@@ -5006,9 +5467,7 @@ select::-ms-expand {
         display: block;
         text-align: center;
     }
-    .medida .anuncio {
-        display: none;
-    }
+    
     .tipos .galeria-tipos .control.siguiente {
         bottom: 380px;
     }
@@ -5026,7 +5485,7 @@ select::-ms-expand {
 
  @media (min-width: 1800px)  {
     img.girl {
-        margin-left: 68px !important;
+        margin-left: -42px !important;
     }
     .conoce .publicaciones .prensa .interna-publicacion .titulo {
         margin-top: 0px;
@@ -5071,8 +5530,8 @@ select::-ms-expand {
         line-height: 29px !important;
     }*/
     .telefono{
-        width: 200px !important;
-       /* margin-left: 197px !important;*/
+        width: 380px !important;
+        /* margin-left: 197px !important;*/
         margin-top: 30px !important;
     }
     .telefono .datos .numero{
@@ -5185,12 +5644,12 @@ select::-ms-expand {
        margin-right: 86px !important;;
     }
     .telefono{
-        width: 200px !important;
+        width: 340px !important;
        /* margin-left: 197px !important;*/
         margin-top: 30px !important;
     }
     .telefono .datos .numero{
-        font-size: 1.25em !important;
+        font-size: 1.1em !important;
     }
     .telefono .datos .ciudad{
         font-size: 0.8em !important;
@@ -5274,8 +5733,11 @@ select::-ms-expand {
  @media (max-width : 1024px) {
 	.navbar-brand img {
 		margin-left: 12px;
+        height: 60px;
 	}
-
+    .menu-principal .secciones .seccion a .nombre{
+        font-size: 0.75em;
+    }
 	.cabezote .interna {
     padding: 26px 40px 50px 55px;
 	}
@@ -5406,7 +5868,7 @@ select::-ms-expand {
     }
     .menu-principal .boton-mobile {
         position: absolute;
-        width: 80px;
+        width: 50px;
         right: 20px;
         top: 30px;
     }
@@ -5421,6 +5883,10 @@ select::-ms-expand {
     }
     .conoce .notas .listado-notas{
         margin-bottom: 40px;
+        padding-left: 80px;
+    }
+    .conoce .historial {
+    	padding-left:70px
     }
     .evento .descripcion_tres{
         width: 629px;
@@ -5500,6 +5966,7 @@ select::-ms-expand {
     }
     .conoce .notas .listado-notas .nota-cuarta .texto{
         padding-right: 18px;
+        padding-left: 100px;
     }
     .miga{
         margin-left: 199px;
@@ -5510,6 +5977,9 @@ select::-ms-expand {
     .conoce .franja-verde .interna p{
         font-size: 1.2em;
     }
+    .conoce .cabezote {
+		padding-left: 80px;
+	}
     .conoce .cabezote .interna .introduccion-seccion .titulo{
         font-size: 1.8em;
     }
@@ -5608,12 +6078,77 @@ select::-ms-expand {
 	}
 
 	.cabezote .interna {
-	padding: 108px 0 0 0;
+	    padding: 108px 0 0 0px;
 	}
+    
+    #galeria-principal .carousel-inner {
+        height: 420px;
+    }
+    #galeria-principal .carousel-inner .item {
+        background-size: auto 100%;
+    }
+    #galeria-principal .carousel-inner .tema-14{
+        background-size: auto 100%;
+    }
+    
+    #galeria-principal .carousel-inner .tema-15 {
+        background-size: auto 100%;
+    }
+    #galeria-principal .carousel-inner .tema-6 {
+        background-position: -140px 70px;
+    }
+    #galeria-principal .carousel-inner .tema-7 {
+        background-position: -160px 70px;
+    }
+    #galeria-principal .carousel-inner .tema-3 {
+        background-position: -140px 110px;
+    }
+    #galeria-principal .carousel-inner .tema-4 {
+        background-position: -140px 110px;
+    }
+    #galeria-principal .carousel-inner .tema-1-4 {
+        background-position: -140px 70px;
+    }
+    #galeria-principal .carousel-inner .tema-1-2 {
+        background-position: -140px 80px;
+    }
+    #galeria-principal .carousel-inner .item .anuncio {
+        margin-top: 27% !important;
+    }
+    .bajaVision ul li a .material-icons {
+        font-size: 3em !important;
+    }
+    
+    .bajaVision ul li:last-child a .material-icons {
+        font-size: 1.2em !important;
+    }
+    .contenido .articulo {
+        padding-left: 50px;
+    }
+    
+    .comunicacion {
+        padding-left: 80px;
+    }
+    
+    .telefono {
+        width: 100%;
+    }
+    
+    .footr {
+        padding-left: 80px;
+    }
+    .color .interna-seccion2 .listado-notas .empresa-from .imagen_form {
+        right: -50px;
+    }
+    .conoce .preguntas {
+        padding-left: 50px;
+    }
 }
 
  @media (max-width : 991px) {
-
+    #galeria-principal {
+        padding-top: 110px;
+    }
    .conoce .historial .intro-historial .anio {
     margin-top: 60px;
 	}
@@ -5631,6 +6166,7 @@ select::-ms-expand {
     }
     .container-fluid .interna-seccion2 .listado-notas .edu-linea{
         display: block;
+        padding-left: 50px;
     }
 
 	#myCarousel-home .carousel-inner .item.active {
@@ -5672,7 +6208,8 @@ select::-ms-expand {
 	}
 
 	.conoce .cabezote .interna .introduccion-seccion {
-    margin-top: -35px;
+        margin-top: -85px;
+        margin-left: 40px;
 	}
 
 	.conoce .preguntas .interna .introduccion-seccion.pqr-class {
@@ -5699,14 +6236,14 @@ select::-ms-expand {
 	}
 
 	#galeria-principal .carousel-inner .item .anuncio {
-    margin-top: 50%;
+    margin-top: 40%;
     margin-left: 70px;
     margin-right: 70px;
 	}
 
 	#FacPil {
     display:none;
-	}
+    }
  }
 
  @media (max-width: 991px) and (min-width: 480px) {
@@ -5749,6 +6286,29 @@ select::-ms-expand {
  }
 
  @media (max-width : 767px) {
+    .card-body {padding: 0;}
+
+    .nota-tercera .panel p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    table.table-fundadores {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .conoce .notas .listado-notas .nota-cuarta .texto {
+        padding-left: 100px;
+    }
+
+     .listado-notas .edu-linea .oval > div {
+         width: 100%;
+        display: block;
+        flex: none;
+        max-width: 100%;
+     }
+        
 	.conoce .cabezote .interna .introduccion-seccion {
 		color: #fff;
 		border-radius: 8px;
@@ -5756,8 +6316,8 @@ select::-ms-expand {
 	}
 
 	.nota-cuarta img {
-		width: 20%;
-	}
+		width: 15%;
+	transform: translateX(20px);}
 
 	#myCarousel-home .carousel-inner .item.active {
 	min-height: 230px;
@@ -5784,16 +6344,43 @@ select::-ms-expand {
     font-size: 32px;
     line-height: 32px;
 	}
-
+    #galeria-principal .carousel-inner {
+        height: 490px;
+    }
+    
+    #galeria-principal .carousel-control img {
+        width: 50px !important;
+    }
+    #galeria-principal .carousel-control {
+        top: auto;
+        bottom: 0px;
+        height: 70px;
+        display: block !important;
+    }
+    #galeria-principal .carousel-control.left {
+        left: 40%;
+    }
+    
+    #galeria-principal .carousel-control.right {
+        right: auto;
+        left: 57%;
+    }
+    .listado-notas .edu-linea .oval > div {
+        width: 100%;
+        display: block;
+        flex: none;
+        max-width: 100%;
+    }
  }
 
  @media (max-width: 480px) {
+
 	 #galeria-principal .carousel-inner .item .anuncio {
-		margin-top: 100%;
+		margin-top: 60%;
 		margin-left: 20px;
 		margin-right: 20px;
 	}
-
+    
 	.preguntas-texto .titulo {
     margin-bottom: 155px;
 	}
@@ -5801,7 +6388,7 @@ select::-ms-expand {
 	.conoce .preguntas .interna .icono-seccion {
     margin-top: -44px;
 	}
-
+    
 	.conoce .preguntas .interna .introduccion-seccion .titulo {
     font-size: 1.8em;
 	}
@@ -5827,9 +6414,45 @@ select::-ms-expand {
 	.nota-principal .caja_info3:after {
     display:none;
 	}
+    #galeria-principal {
+        padding-top: 110px;
+    }
+    .accordion {
+        padding: 10px 28px;
+    }
+    .accordion.accordion-one-line {
+        padding: 20px;
+    }
+    .interna-seccion a {
+        height: 64px;
+    }
+    .accordion:after{
+        position: absolute;
+        top: 16px;
+        right: 10px;
+    }
+    .conoce .notas .listado-notas .nota-cuarta .texto{
+        padding-left: 0;
+    }
+    .nota-cuarta img{
+        margin-left: 0;
+        width: 16%;
+        margin-right: 5px;
+        padding-left: 0;
+        transform: translateX(10px);
+    }
   }
  /*Responsive de 0 a 320 px */
  @media (max-width : 320px) {
+    #galeria-principal {
+        padding-top: 110px;
+    }
+    #galeria-principal .carousel-inner {
+        height: 408px;
+    }
+    #galeria-principal .carousel-inner .item .anuncio {
+        margin-top: 20%;
+    }
     .nav-menu-mobile li.nav-menu-item{
         width: 90%;
         display: block;
@@ -5860,8 +6483,9 @@ select::-ms-expand {
     .conoce .publicaciones .documentos, .conoce .publicaciones .prensa{
         width: 100% !important;
     }
-    .notas .interna-seccion .images-conoce, .claro .interna-seccion3 .listado-notas .images-descargas{
-        /*margin-left: 20px !important;*/
+    .notas .interna-seccion .images-conoce, .claro .interna-seccion3 .listado-notas .interna-seccion .images-descargas{
+        width: 84% !important;
+        margin-left: 15% !important;
     }
     .conoce .publicaciones .prensa .interna-publicacion .vinculo{
         margin-left: auto;
@@ -6006,6 +6630,9 @@ select::-ms-expand {
 
  }
  @media (max-width : 479px){
+    .cabezote .interna {
+        padding: 66px 20px 50px 45px;
+    }
     .conoce .interna-seccion .control-anterior{
         display: none;
     }
@@ -6020,16 +6647,20 @@ select::-ms-expand {
     }
     .conoce .franja-verde .interna p{
         font-size: 1.1em;
+        padding-left: 30px;
     }
 
 	#myCarousel-home .carousel-inner .item.active {
 	min-height: 170px;
 	}
+    #galeria-principal .carousel-inner{
+        height: 459px;
+    }
 
 	.evento {
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding-left: 0px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding-left: 0px;
 	}
 
 	.evento .descripcion_tres, .evento .descripcion_dos, .evento .descripcion {
@@ -6065,6 +6696,7 @@ select::-ms-expand {
 
  }
 
+
  @media (max-width:375px) {
 	.formulario-select {
 		margin-top:30px;
@@ -6072,6 +6704,14 @@ select::-ms-expand {
 	.cabezote .interna {
     padding: 26px 20px 50px 10px;
 	}
+    #galeria-principal .carousel-inner {
+        height: 440px;
+    }
+ }
+ @media (max-width:320px) {
+    #galeria-principal .carousel-inner {
+        height: 378px;
+    }
  }
 
   @media (min-width: 320px) and (max-width: 479px)  {
@@ -6089,6 +6729,7 @@ select::-ms-expand {
     }
     .sociales{
         width: 100%;
+        padding-left: 50px;
     }
     .medio{
         margin-left: 0px;
@@ -6097,7 +6738,7 @@ select::-ms-expand {
 
     .menu-principal .secciones{
         margin-top: -28px;
-        margin-right: 40px;
+        margin-right: 30px;
     }
     .navbar-brand img{
         display: block;
@@ -6105,11 +6746,31 @@ select::-ms-expand {
         margin-top: 3px;
         margin-left: 10px;
     }
+    .bajaVision ul li a .material-icons {
+        font-size: 2.4em !important;
+    }
+    
+    .bajaVision ul li a {
+        padding: 7px 2px !important;
+    }
+    
+    .bajaVision ul li:last-child a .material-icons {
+        font-size: 1em !important;
+    }
+    
+    #formDefault {
+        padding-left: 54px;
+    }
+    
+    .footr {
+        padding-left: 40px;
+    }
     #galeria-principal .carousel-control{
         display: none;
     }
     .boton-mobile img{
         width: 30px;
+        transform: translate(10px, 20px);
     }
     _:-ms-fullscreen, :root .conoce .notas .interna-seccion2 .listado-notas #popup {
         margin-top:-573px !important;
@@ -6155,6 +6816,7 @@ select::-ms-expand {
     }
     .menu-principal{
         position: fixed;
+        padding: 0;
     }
     #galeria-principal .carousel-inner .tema-1 {
         background-image: url('../images/banner-movil/banner-home-1.jpg');
@@ -6204,7 +6866,6 @@ select::-ms-expand {
     #galeria-principal .carousel-inner .tema-3{
         background-image: url('../images/banner-movil/banner-home-3.jpg');
         background-position: center;
-        background-position-y: 100px;
     }
     #galeria-principal .carousel-inner .tema-4{
         background-image: url('../images/banner-movil/banner-home-4.jpg');
@@ -6214,7 +6875,110 @@ select::-ms-expand {
         background-image: url('../images/banner-movil/banner-home-5.jpg');
         background-position: center;
     }
-
+    #galeria-principal .carousel-inner .tema-6{
+        background-image: url('../images/banner-movil/banner-home-6.jpg');
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    #galeria-principal .carousel-inner .tema-7{
+        background-image: url('../images/banner-movil/banner-home-7.jpg');
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    
+    #galeria-principal .carousel-inner .tema-9{
+        background-image: url(../images/banner-movil/banner-home-9.jpg);
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    #galeria-principal .carousel-inner .tema-11{
+        background-image: url(../images/banner-movil/banner-home-11.jpg);
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    #galeria-principal .carousel-inner .tema-12{
+        background-image: url(../images/banner-movil/BANNER-PILAS-COLEGIOS-PILOSOS.jpeg);
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-color: #418433;
+    }
+    #galeria-principal .carousel-inner .tema-13 {
+        background-image: url(../images/banner-movil/banner-pilas-uni-pilosas.jpeg);
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    #galeria-principal .carousel-inner .tema-14 {
+        background-image: url(../images/banner-movil/banner-municipios-pilosos-nuevo.jpg);
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    
+    #galeria-principal .carousel-inner .tema-15 {
+        background-image: url(../images/banner-movil/banner-home-15.jpg);
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    
+    #galeria-principal .carousel-inner .tema-16 {
+        background-image: url('../images/banner-movil/banner-centros-comerciales.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
+    #galeria-principal .carousel-inner .tema-1-2{
+        background-image: url(../images/banner-movil/banner-home-1.jpg);
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    
+    #galeria-principal .carousel-inner .tema-1-ene-2023 {
+        background-image: url('../images/banner-movil/banner-home-1-ene-2023.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
+    #galeria-principal .carousel-inner .tema-2-ene-2023 {
+        background-image: url('../images/banner-movil/banner-home-2-ene-2023.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
+    #galeria-principal .carousel-inner .tema-3-ene-2023 {
+        background-image: url('../images/banner-movil/banner-home-3-ene-2023.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
+    #galeria-principal .carousel-inner .tema-5-ene-2023 {
+        background-image: url('../images/banner-movil/banner-home-5-ene-2023.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
+    #galeria-principal .carousel-inner .tema-6-ene-2023 {
+        background-image: url('../images/banner-movil/banner-home-6-ene-2023.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
+    #galeria-principal .carousel-inner .tema-7-ene-2023 {
+        background-image: url('../images/banner-movil/banner-home-7-ene-2023.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
+    #galeria-principal .carousel-inner .tema-8-ene-2023 {
+        background-image: url('../images/banner-movil/banner-home-8-ene-2023.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
+    #galeria-principal .carousel-inner .tema-9-ene-2023 {
+        background-image: url('../images/banner-movil/banner-home-9-ene-2023.jpg');
+        background-position: center;
+        cursor:pointer;
+    }
     .nav-menu-bg.collapsed {
         transform: translateY(-850px);
     }
@@ -6317,6 +7081,12 @@ select::-ms-expand {
         margin-right: auto;
         margin-left: auto;
     }
+    .interna-seccion2{
+        padding-left: 10px;
+	}
+	.interna-seccion3 {
+        padding-left: 40px;
+	}
     .fondo_abajo{
         margin-top: -149px;
         background-position: initial;
@@ -6335,15 +7105,20 @@ select::-ms-expand {
         margin-right: 0px;
         margin-left: 0px;
     }
+    body {overflow-x: hidden;}
     .row{
         margin-right: 0px;
         margin-left: 0px;
     }
+    .menu-principal .logo{
+        margin-top: -25px;
+    }
     .conoce .cabezote .interna .introduccion-seccion .texto{
-        font-size: 0.5em;
+        font-size: 0.75em;
     }
     .conoce .cabezote .interna .introduccion-seccion .titulo{
-        font-size: 1.0em;
+        font-size: 1.3em;
+        text-align: left;
     }
     .interna-seccion2 .listado-notas .hogares-texto p{
         width: auto;
@@ -6363,6 +7138,7 @@ select::-ms-expand {
         width: 100%;
         margin-bottom: 27px;
         margin: 0 auto;
+        padding-left: 30px;
     }
     .sociales .comunicado .inferior span{
         /*width: 10%;*/
@@ -6373,7 +7149,7 @@ select::-ms-expand {
     }
     .telefono{
         /*margin-left: 74px;*/
-        width: 189px;
+        width: 120%;
     }
     .nota-principal .caja_info:after{
         right: 91%;
@@ -6426,7 +7202,7 @@ select::-ms-expand {
         padding-right: 30px;
     }
     .empresa-texto .texto{
-        width: 280px;
+        width: 100%;
     }
     .conoce .notas .interna-seccion2 .listado-notas #popup{
         margin-top: -825px;
@@ -6439,20 +7215,27 @@ select::-ms-expand {
         height: 71px ;
     }
     .empresa-from form{
-        padding-left: 20px;
+        padding-left: 38px;
+    }
+    .empresa-from form:after {
+    	content:"";
+    	display:block;
+    	clear:both;
     }
     .listado-notas .empresa-from .form-horizontal span{
-        padding-right: 0px;
+        padding-right: 49px;
         font-size: 17px;
     }
     .empresa-titulos2 .titulo{
-        font-size: 22px;
+        font-size: 20px;
     }
     .empresa-titulos2{
         padding-bottom: 140px;
+        padding-left: 50px;
+        margin-top: auto;
     }
     .menu-principal .secciones .seccion{
-        padding: 0px 0px;
+        padding: 10px 10px;
         padding-right: 20px;
     }
     .conoce .notas .interna-seccion2 .listado-notas #popup .popup-contenedor{
@@ -6545,6 +7328,10 @@ select::-ms-expand {
         margin-left: 0px;
         margin-right: 0px;
         text-align: center;
+        padding-left: 40px;
+    }
+    .sociales .comunicado .redes .red {
+        margin-left: 10px;
     }
     .listado-cintas .opciones-edu .edu-piloso{
         margin-left: 0px;
@@ -6573,16 +7360,20 @@ select::-ms-expand {
 	}
 
 	.conoce .cabezote .interna .icono-seccion {
-	margin-top: 95px;
+	    margin-top: 35px;
+        margin-left: 0;
 	}
 
 	.cabezote .interna .icono-seccion {
-    width: 50px;
-    height: 50px;
-	}
+        width: 50px;
+        height: 50px;
+        margin-left: 40px;
+    }
 
 	.conoce .cabezote .interna .introduccion-seccion {
-    margin-top: 0px;
+        margin-top: 0px;
+        margin-left: -10px;
+        padding: 0 !important;
 	}
 
 	.conoce .cabezote .interna .icono-seccion .icono_educaacion {
@@ -6596,6 +7387,43 @@ select::-ms-expand {
 
 	.cabezote .interna.tipos {
     margin-top: 105px;
-	}
-
+ }
+    .conoce .notas .listado-notas .nota-principal .texto {
+        padding-left: 40px;
+    }
+    
+    .conoce .historial .contenedor-todo.anio-seleccionado {
+        padding-left: 40px;
+    }
+    
+    .interna-seccion .container h2 {
+        padding-left: 30px;
+    }
+    .conoce .notas .listado-notas .nota-secundaria .texto {
+        padding-left: 30px;
+    }
+    .conoce .notas .listado-notas .nota-tercera .titulo {
+        font-size: 1.4em;
+        padding-left: 0px;
+    }
+    .conoce .notas .listado-notas .nota-secundaria .titulo{
+        font-size: 1.6em;
+    }
+    
+    #formHogares {
+        padding-left: 60px;
+    }
+    #formEmpresas {
+        padding-left: 60px;
+    }
+    .tipos .cabezote .introduccion-seccion {
+        padding-left: 40px;
+    }
+    .tipos .galeria-tipos .informacion-bateria {
+        padding-left: 50px;
+    }
+    .conoce .franja-verde {
+        height: 220px;
+        background-size: cover;
+    }
  }
