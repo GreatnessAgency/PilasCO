@@ -110,8 +110,8 @@
                 </p>
                 <p><b>2. LA DESCRIPCION DE LA ACTIVIDAD MERITORIA </b><br>
                 “Pilas con el Ambiente” es una corporación sin ánimo de lucro apoyada por ANDI y los principales importadores de pilas y/o acumuladores en el país, que buscan proteger el ambiente recogiendo, transportando y dando el tratamiento ambientalmente seguro a las pilas y/o acumuladores usados, evitando que lleguen a los rellenos sanitarios, botaderos a cielo abierto o espacios inadecuados y dar cumplimiento a la Resolución 1297 de 2010 del MAVDT.</p>
-                <p><b>3. EXCEDENTES DE LA CORPORACION AÑO 2022</b><br>
-                La Asamblea General de la CORPORACIÓN PILAS CON EL AMBIENTE, aprueba la reinversión de los excedentes generados en el ejercicio del 2022 en el desarrollo del objeto social de la corporación en los rubros de comunicación, estumulos al consumidor, investigacion y desarrollo, operación, transporte, almacenamiento, segregación y disposicion final del residuo</p>
+                <p><b>3. EXCEDENTES DE LA CORPORACION AÑO 2023</b><br>
+                La Asamblea General de la CORPORACIÓN PILAS CON EL AMBIENTE, aprueba la reinversión de los excedentes generados en el ejercicio del 2023 en el desarrollo del objeto social de la corporación en los rubros de comunicación, estumulos al consumidor, investigacion y desarrollo, operación, transporte, almacenamiento, segregación y disposicion final del residuo</p>
                 <p><b>4. ASIGNACIONES PERMANENTES</b><br>
                 La corporación PILAS CON EL AMBIENTE durante el periodo 2023 no tuvo asignaciones permanentes. </p>
                 <p><b>5. DIRECTIVOS DE LA CORPORACION</b><br><br>
@@ -122,7 +122,7 @@
                   <strong>CARGO:</strong> DIRECTOR EJECUTIVO - REPRESENTANTE LEGAL <br>
                   <strong>CEDULA:</strong> 79.384.726</p>
                 <p><b>6. EL MONTO TOTAL DE PAGOS SALARIALES A LOS MIEMBROS DE LOS CUERPOS DIRECTIVOS</b> <br>
-                El monto total de los pagos y remuneraciones a los directivos de la corporación en el 2022 fue de $207'947.700.<br></p>
+                El monto total de los pagos y remuneraciones a los directivos de la corporación en el 2023 fue de $207'947.700.<br></p>
                 <p><a  href="<?php echo $assets; ?>pdf/Certificacion-Cargos-Directivos.pdf" target="_blank">Certificación Cargos Directivos</a></p>
                 <p><b>7. FUNDADORES</b> <br>
                   <table class="table-fundadores">
