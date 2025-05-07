@@ -209,8 +209,9 @@
   <div class="container-fluid color">
     <div class="container interna-seccion2">
       <div class="listado-texto col-xs-12 col-sm-12 col-md-8 col-lg-8">  
-         <p>Si tienes contenedor de Pilas con el Ambiente, solicita la recolección de las pilas que hayas recolectado cuando tu contenedor esté en el 80% de llenado, solo tienes que 
-           <a href="mailto:info-digital@pilascolombia.com" class="link_edu">hacer tu solicitud aquí.</a>
+         <p>Si tienes más de 30 kg de pilas y/o acumuladores usados, la recolección se realizará directamente en tus instalaciones. Si no alcanzas el mínimo de 30 kg, contamos con alternativas para ti.
+          Si utilizas un contenedor con una capacidad superior a 30 kg, te pedimos esperar a que esté lleno al menos en un 80% antes de programar la recolección. Esta medida nos permite optimizar las rutas y reducir nuestra huella de carbono.
+           <a href="https://forms.office.com/r/CC6TvuRSRb" class="link_edu">hacer tu solicitud aquí.</a>
          </p>
       </div> 
     </div>  

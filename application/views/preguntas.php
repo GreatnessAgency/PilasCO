@@ -101,7 +101,7 @@
          </div>   
          <div class="listado-preguntas col-xs-12	col-sm-12	col-md-12 col-lg-11">
             <h4>¿El programa ofrece la posibilidad de contar con asesorías o charlas informativas en las instituciones educativas participantes del programa?</h4>
-            <p>Para mayor información contáctanos en <a href="mailto:info-digital@pilascolombia.com">info-digital@pilascolombia.com</a>.</p>
+            <p>Para mayor información contáctanos en <a href="mailto:comuicaciones@pilascolombia.com">comunicaciones@pilascolombia.com</a>.</p>
          </div> 
        </div>    
       </div>

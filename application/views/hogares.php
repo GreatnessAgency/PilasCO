@@ -13,7 +13,7 @@
         </div>
         <div class="introduccion-seccion">
           <h2 class="titulo">Recolección en  Hogares:</h2>
-          <p class="texto">Hemos instalado más de 4.500 puntos de recolección en almacenes de cadena, centros comerciales, conjuntos residenciales, entre otros a nivel nacional, para que puedas entregar tus pilas y/o acumuladores.</p>
+          <p class="texto">Hemos instalado más de 7.000 puntos de recolección en almacenes de cadena, centros comerciales, conjuntos residenciales, entre otros a nivel nacional, para que puedas entregar tus pilas y/o acumuladores.</p>
         </div>
       </div>
       <!--<div class="col-xs-12	col-sm-12	col-md-6 col-lg-6">
