@@ -1,0 +1,318 @@
+[11-Sep-2019 11:54:50 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1', 'share')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[11-Sep-2019 11:56:57 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1', 'share')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[11-Sep-2019 12:08:12 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[11-Sep-2019 12:31:25 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[11-Sep-2019 12:43:42 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[11-Sep-2019 16:30:14 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[13-Sep-2019 13:23:34 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[13-Sep-2019 13:33:06 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[14-Sep-2019 11:18:44 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[14-Sep-2019 11:29:11 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[16-Sep-2019 10:47:08 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[16-Sep-2019 15:16:29 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[16-Sep-2019 15:27:10 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[16-Sep-2019 21:52:42 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[27-Sep-2019 11:07:25 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[27-Sep-2019 11:07:37 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[27-Sep-2019 11:07:45 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[27-Sep-2019 11:08:02 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1', 'share')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[01-Oct-2019 18:29:26 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[01-Oct-2019 18:29:41 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[01-Oct-2019 18:30:14 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[01-Oct-2019 18:30:29 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[04-Oct-2019 19:19:14 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[04-Oct-2019 19:19:24 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[04-Oct-2019 19:19:36 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[04-Oct-2019 19:26:12 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[04-Oct-2019 19:26:45 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[04-Oct-2019 19:27:08 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[04-Oct-2019 19:27:32 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[04-Oct-2019 19:27:45 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1', 'share')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[07-Oct-2019 13:14:33 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[10-Oct-2019 10:44:05 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[10-Oct-2019 10:44:42 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[10-Oct-2019 10:44:47 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[10-Oct-2019 10:45:04 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[10-Oct-2019 10:45:23 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[10-Oct-2019 10:46:02 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[10-Oct-2019 10:49:45 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[10-Oct-2019 10:54:14 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[11-Oct-2019 09:51:14 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[11-Oct-2019 09:51:28 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[11-Oct-2019 09:51:52 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[11-Oct-2019 09:52:15 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[18-Oct-2019 16:25:04 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[18-Oct-2019 16:25:17 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[18-Oct-2019 16:25:46 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[18-Oct-2019 16:49:47 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[21-Oct-2019 13:52:38 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[21-Oct-2019 13:53:00 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[24-Oct-2019 11:46:21 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[24-Oct-2019 11:46:54 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:271
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 271
+[24-Oct-2019 12:44:30 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:234
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 234
+[24-Oct-2019 12:44:44 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ClearAllRecipients() on null in /home1/pilasco1/public_html/landing/site/controllers/main.php:234
+Stack trace:
+#0 /home1/pilasco1/public_html/landing/site/system/core/CodeIgniter.php(339): Main->enviar('1')
+#1 /home1/pilasco1/public_html/landing/index.php(201): require_once('/home1/pilasco1...')
+#2 {main}
+  thrown in /home1/pilasco1/public_html/landing/site/controllers/main.php on line 234

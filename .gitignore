@@ -1,9 +1,4 @@
 .vscode
 .idea
-landing
-logss
 site_2017
-.DS_Store
-qa
-application/config/config.php
-application/config/database.php
+
