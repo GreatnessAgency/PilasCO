@@ -114,7 +114,7 @@ if (defined('ENVIRONMENT'))
 
  */
 
-	$system_path = 'app/system';
+	$system_path = __DIR__ . '/app/system';
 
 
 
@@ -146,7 +146,7 @@ if (defined('ENVIRONMENT'))
 
  */
 
-	$application_folder = 'app';
+	$application_folder = __DIR__ . '/app';
 
 
 
