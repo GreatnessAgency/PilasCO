@@ -44,17 +44,16 @@ class Inicio extends CI_Controller
     public function register()
     {
         $data = $this->input->post(NULL, TRUE);
-        $mensaje = "
-			<b>Nombre:</b> {$data['empresa']}<br>
-			<b>Empresa:</b> {$data['nombre']}<br>
-			<b>Tipo de documento:</b> {$data['tipo_documento']}<br>
-			<b>Numero de Documento:</b> {$data['numero_documento']}<br>
-			<b>Direccion:</b> {$data['direccion']}<br>
-			<b>Ciudad:</b> {$data['ciudad']}<br>
-			<b>telefono:</b> {$data['telefono']}<br>
-			<b>Email:</b> {$data['email']}<br>
-			<b>Mensaje:</b> {$data['mensaje']}
-		";
+        $mensaje = "";
+        $mensaje .= "Nombre: {$data['empresa']}\n";
+        $mensaje .= "Empresa: {$data['nombre']}\n";
+        $mensaje .= "Tipo de documento: {$data['tipo_documento']}\n";
+        $mensaje .= "Numero de Documento: {$data['numero_documento']}\n";
+        $mensaje .= "Direccion: {$data['direccion']}\n";
+        $mensaje .= "Ciudad: {$data['ciudad']}\n";
+        $mensaje .= "Telefono: {$data['telefono']}\n";
+        $mensaje .= "Email: {$data['email']}\n";
+        $mensaje .= "Mensaje: {$data['mensaje']}\n";
 
         if ($this->sendSMTPEmailByMail('info-digital@pilascolombia.com', $mensaje, 'Registro empresa') !== true) {
             // Generate error
@@ -67,12 +66,11 @@ class Inicio extends CI_Controller
     public function sticker()
     {
         $data = $this->input->post(NULL, TRUE);
-        $mensaje = "
-			<b>Nombre:</b> {$data['nombre']}<br>
-			<b>Correo:</b> {$data['email']}<br>
-			<b>Mensaje:</b> {$data['telefono']}<br>
-			<b>Mensaje:</b> {$data['empresa']}
-		";
+        $mensaje = "";
+        $mensaje .= "Nombre: {$data['nombre']}\n";
+        $mensaje .= "Correo: {$data['email']}\n";
+        $mensaje .= "Telefono: {$data['telefono']}\n";
+        $mensaje .= "Empresa: {$data['empresa']}\n";
 
         if ($this->sendSMTPEmailByMail('info-digital@pilascolombia.com', $mensaje, 'Stickers') !== true) {
             // Generate error
@@ -88,25 +86,25 @@ class Inicio extends CI_Controller
         $data = $this->input->post(NULL, TRUE);
         $mensaje = "";
         if (array_key_exists("nombre", $data)) {
-            $mensaje .= "<b>Nombre:</b> {$data['nombre']}<br>";
+            $mensaje .= "Nombre: {$data['nombre']}\n";
         }
         if (array_key_exists("celular", $data)) {
-            $mensaje .= "<b>Celular:</b> {$data['celular']}<br>";
+            $mensaje .= "Celular: {$data['celular']}\n";
         }
         if (array_key_exists("correo", $data)) {
-            $mensaje .= "<b>Correo:</b> {$data['correo']}<br>";
+            $mensaje .= "Correo: {$data['correo']}\n";
         }
         if (array_key_exists("razon_social", $data)) {
-            $mensaje .= "<b>Razón Social:</b> {$data['razon_social']}<br>";
+            $mensaje .= "Razón Social: {$data['razon_social']}\n";
         }
         if (array_key_exists("select-tipo-empresa", $data)) {
-            $mensaje .= "<b>Tipo de empresa:</b> {$data['select-tipo-empresa']}<br>";
+            $mensaje .= "Tipo de empresa: {$data['select-tipo-empresa']}\n";
         }
         if (array_key_exists("select-asunto", $data)) {
-            $mensaje .= "<b>Asunto:</b> {$data['select-asunto']}<br>";
+            $mensaje .= "Asunto: {$data['select-asunto']}\n";
         }
         if (array_key_exists("mensaje", $data)) {
-            $mensaje .= "<b>Mensaje:</b> {$data['mensaje']}";
+            $mensaje .= "Mensaje: {$data['mensaje']}\n";
         }
         if ($this->sendSMTPEmailByMail('info-digital@pilascolombia.com', $mensaje, 'Contactenos') !== true) {
             // Generate error
@@ -119,6 +117,8 @@ class Inicio extends CI_Controller
     private function sendSMTPEmailByMail($to, $msg, $subject, $cc = '')
     {
         $this->load->library('email');
+        $this->email->set_mailtype('text');
+        $this->email->set_alt_message('');
         $result = $this->email
             ->from('info-digital@pilascolombia.com')
             ->reply_to($cc)   

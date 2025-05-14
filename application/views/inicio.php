@@ -2,8 +2,21 @@
   <div id="galeria-principal" class="carousel slide" data-ride="carousel">
     <!-- Wrapper for slides -->
     <div class="carousel-inner"> 
+      <!-- Banner Sanar 2025 -->
+      <div class="item tema-sanar-2025 item active" id="banner-sanar-2025" title="Pilas para Sanar" onclick="window.open('https://www.pilascolombia.com/puntos','_blank');">
+        <img src="/assets/images/banner-home-1-2025.jpg" alt="Pilas para Sanar - Fundación Sanar" style="width:100%;">
+      </div>
+      <!-- Banner Office Form 2025 -->
+      <div class="item tema-office-2025 item" id="banner-office-2025" title="Formulario Office" onclick="window.open('https://forms.office.com/r/W8FvjgiWyd','_blank');">
+        <img src="/assets/images/banner-home-2-may-2025.webp" alt="Formulario Office Banner" style="width:100%;">
+      </div>
+      <!-- Banner 3 2025 (no link) -->
+      <div class="item tema-3-2025 item" id="banner-3-2025" title="Banner 3 2025">
+        <img src="/assets/images/banner-home-3-2025.webp" alt="Banner 3 2025" style="width:100%;">
+      </div>
+
       <!-- Banner 1 -->
-      <div class="item tema-1-ene-2023 item active" id="banner1-ene-2023" title="Colegios Pilosos" onclick="window.open('https://acortar.link/2nNBvl','_blank');">
+      <div class="item tema-1-ene-2023 item" id="banner1-ene-2023" title="Colegios Pilosos" onclick="window.open('https://acortar.link/2nNBvl','_blank');">
          <div class="container">
            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
             

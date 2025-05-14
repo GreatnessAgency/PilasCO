@@ -756,6 +756,22 @@ _:-ms-fullscreen,
     background-position: center;
     cursor:pointer;
 }
+#galeria-principal .carousel-inner .tema-1-may-2025 {
+    background-image: url('../images/banner-home-1-2025.jpg');
+    background-position: center;
+    cursor:pointer;
+}
+#galeria-principal .carousel-inner .tema-2-may-2025 {
+    background-image: url('../images/banner-home-9-ene-2023.jpg');
+    background-position: center;
+    cursor:pointer;
+}
+#galeria-principal .carousel-inner .tema-3-may-2025 {
+    background-image: url('../images/banner-home-9-ene-2023.jpg');
+    background-position: center;
+    cursor:pointer;
+}
+
 #galeria-principal .carousel-inner .item {
     background-size: cover;
     width: 100%;
