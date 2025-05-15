@@ -10,8 +10,8 @@
       <div class="item tema-office-2025 item" id="banner-office-2025" title="Formulario Office" onclick="window.open('https://forms.office.com/r/W8FvjgiWyd','_blank');">
         <img src="/assets/images/banner-home-2-may-2025.webp" alt="Formulario Office Banner" style="width:100%;">
       </div>
-      <!-- Banner 3 2025 (no link) -->
-      <div class="item tema-3-2025 item" id="banner-3-2025" title="Banner 3 2025">
+      <!-- Banner 3 2025 (now with link) -->
+      <div class="item tema-3-2025 item" id="banner-3-2025" title="Banner 3 2025" onclick="window.open('https://forms.office.com/pages/responsepage.aspx?id=EY4irmlK_0-ux0N9fYTcJwOleoFohppNurj5I34htIpURFQ0SE1KNVo1VzdMQlk0NU5OQ1RUWEFMVi4u&route=shorturl','_blank');">
         <img src="/assets/images/banner-home-3-2025.webp" alt="Banner 3 2025" style="width:100%;">
       </div>
 
@@ -27,16 +27,6 @@
       </div>
       <!-- Banner 2 -->
       <div class="item tema-2-ene-2023 item " id="banner2-ene-2023" title="Universidades Pilosos" onclick="window.open('https://acortar.link/whzS8s','_blank');">
-         <div class="container">
-           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
-            
-             <!--<a class="principal-btn" href="https://forms.gle/ETSFd6A9GFh9KioT8">¡Inscríbete aquí!</a>-->
-           </div>
-
-         </div>
-      </div>
-      <!-- Banner 3 -->
-      <div class="item tema-3-ene-2023 item " id="banner3-ene-2023" title="Municipios Pilosos" onclick="window.open('https://acortar.link/Dim5qW','_blank');">
          <div class="container">
            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-push-2 medida">
             
