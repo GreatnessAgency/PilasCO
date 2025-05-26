@@ -85,26 +85,34 @@ class Inicio extends CI_Controller
     {
         $data = $this->input->post(NULL, TRUE);
         $mensaje = "";
+
+
+        $mensaje .= "<html><head><meta http-equiv='Content-Type' content='text/html; charset=UTF-8'></head><body>";
+        $mensaje .= "<h2>Nuevo mensaje de Contacto</h2>";
+        $mensaje .= "<p>Se ha recibido un nuevo mensaje a través del formulario de contacto:</p>";
+        $mensaje .= "<hr>";
+
         if (array_key_exists("nombre", $data)) {
-            $mensaje .= "Nombre: {$data['nombre']}\n";
+            $mensaje .= "<p><strong>Nombre:</strong> " . htmlspecialchars($data['nombre']) . "</p>";
         }
         if (array_key_exists("celular", $data)) {
-            $mensaje .= "Celular: {$data['celular']}\n";
+            $mensaje .= "<p><strong>Celular:</strong> " . htmlspecialchars($data['celular']) . "</p>";
         }
         if (array_key_exists("correo", $data)) {
-            $mensaje .= "Correo: {$data['correo']}\n";
+            $mensaje .= "<p><strong>Correo:</strong> " . htmlspecialchars($data['correo']) . "</p>";
         }
         if (array_key_exists("razon_social", $data)) {
-            $mensaje .= "Razón Social: {$data['razon_social']}\n";
+            $mensaje .= "<p><strong>Razón Social:</strong> " . htmlspecialchars($data['razon_social']) . "</p>";
         }
         if (array_key_exists("select-tipo-empresa", $data)) {
-            $mensaje .= "Tipo de empresa: {$data['select-tipo-empresa']}\n";
+            $mensaje .= "<p><strong>Tipo de empresa:</strong> " . htmlspecialchars($data['select-tipo-empresa']) . "</p>";
         }
         if (array_key_exists("select-asunto", $data)) {
-            $mensaje .= "Asunto: {$data['select-asunto']}\n";
+                    $mensaje .= "<p><strong>Asunto:</strong> " . htmlspecialchars($data['select-asunto']) . "</p>";
         }
         if (array_key_exists("mensaje", $data)) {
-            $mensaje .= "Mensaje: {$data['mensaje']}\n";
+                    $mensaje .= "<p><strong>Mensaje:</strong><br>" . nl2br(htmlspecialchars($data['mensaje'])) . "</p>";
+
         }
         if ($this->sendSMTPEmailByMail('info-digital@pilascolombia.com', $mensaje, 'Contactenos') !== true) {
             // Generate error
@@ -117,8 +125,8 @@ class Inicio extends CI_Controller
     private function sendSMTPEmailByMail($to, $msg, $subject, $cc = '')
     {
         $this->load->library('email');
-        $this->email->set_mailtype('text');
-        $this->email->set_alt_message('');
+        $this->email->set_mailtype('html');
+        $this->email->set_alt_message(strip_tags($msg));
         $result = $this->email
             ->from('info-digital@pilascolombia.com')
             ->reply_to($cc)   
