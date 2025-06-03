@@ -28,7 +28,11 @@ class Puntos extends CI_Controller {
 	}
 	
 	public function index()	{
-		$module = $this->db->get_where('web_puntosderecoleccion', array('status_id' => 'publico'));
+		$this->db->select('departamento, ciu_munic, nombre, sede, tipo_ent, barrio, 
+                      lat_ubicacion AS lat, lng_ubicacion AS lng, 
+                      direccion, tipo_cont, status_id');
+		$module = $this->db->get('web_puntosderecoleccion');
+
 		$this->tp['title'] = "Puntos de Recoleccion";
 		$this->tp['assets'] = $this->resources;	
 		$this->tp['site_url'] = base_url();
